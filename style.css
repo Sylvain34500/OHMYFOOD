@@ -9,7 +9,7 @@ body {
 
 .logo {
     height: 35px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .boite {
@@ -28,7 +28,7 @@ body {
 .location .fa-map-marker-alt {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 h1 {
@@ -105,7 +105,21 @@ h1 {
 
 .un {
     font-size: 19px;
+    padding-right: 30px; 
+}
+
+.fonctionnement .fas {
+    color: #9356DC ;
+}
+
+.une {
+    color: #9356DC ;
+    font-size: 19px;
     padding-right: 30px;
+}
+
+.fonctionnement button {
+    color: black;
 }
 
 .fa-mobile-alt {
@@ -160,12 +174,14 @@ h1 {
 }
 
 .titre {
+    color: black;
     font-weight: bold;
     margin-left: 10px;
     text-decoration: none;
 }
 
 .soustitre {
+    color: black;
     margin-left: 10px;
 }
 
@@ -173,6 +189,14 @@ h1 {
     margin-top: 10px;
     font-size: 17px;
     margin-left: 60%;
+}
+
+.fas:hover {
+    color: #FF79DA ;
+}
+
+.restaurant .fas {
+    color: #FF79DA ;
 }
 
 .position {
