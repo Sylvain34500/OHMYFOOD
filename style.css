@@ -1,81 +1,42 @@
+* {
+    font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
 body {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
 
-  .logo {
-    height: 28px;
+.logo {
+    height: 35px;
     margin-left: 35%;
-  }
+}
 
 .boite {
     background-color: rgb(228, 227, 227);
     width: 100%;
     min-height: 350px;
 }
+
 .location {
-    font-size: 17px;
+    font-weight: lighter;
+    font-size: 18px;
     width: 100%;
     background-color: lightgrey;
-    
 }
+
 .location .fa-map-marker-alt {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: 50px;
-    margin-left: 45%;
-
-.explorer {
-    font-size: 19px;
-    color: white;
-    width: calc(70% - 80px);
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 17px;
-    border-radius: 30px;
-    border: unset;
-    cursor: pointer;
-    background-color: rgb(202, 169, 202);
-}
-h2 {
-    margin-top: 30px;
-    margin-left: 10px;
-    font-weight: bolder;
-}
-.fonc {
-    width: calc(80% - 40px);
-    margin-left: 50px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.foncs {
-    background-color: rgb(224, 191, 224);
-    width: calc(80% - 40px);
-    margin-left: 50px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.fonc:hover {
-    background-color: rgb(224, 191, 224) ;
-}
-
-.restaurant {
-    background-color: rgb(228, 227, 227);
-    width: 100%;
-    min-height: 1000px;
+    margin-left: 35%;
 }
 
 h1 {
-    text-align: center;
-    font-size: 35px;
-    margin-left: 20px;
+    font-family: Shrikhand;
+    margin-left: 90px;
+    font-size: 29px;
     font-weight: bolder;
+    margin-top: 40px;
 }
 
 .soins {
@@ -84,46 +45,190 @@ h1 {
     margin-left: 8px;
 }
 
+.explorer {
+    font-size: 19px;
+    font-weight:normal;
+    color: white;
+    width: calc(70% - 80px);
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 17px;
+    border-radius: 30px;
+    border: unset;
+    cursor: pointer;
+    background-color: #FF79DA;
+}
+
+.fonctionnement h2 {
+    font-family: Shrikhand;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.fonc {
+    font-weight: bold;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    padding: 25px 65px 25px 0px;
+    border-radius: 20px;
+    border: #f2f2f2;
+    box-shadow: lightgrey 5px 5px 20px;
+    cursor: pointer;
+}
+
+.fon {
+    font-weight: bold;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    padding: 25px 80px 25px 0px;
+    border-radius: 20px;
+    border: #f2f2f2;
+    box-shadow: lightgrey 5px 5px 20px;
+    cursor: pointer;
+}
+
+.foncs {
+    font-weight:bold;
+    background-color: rgb(224, 191, 224);
+    margin-left: 55px;
+    margin-bottom: 20px;
+    padding: 25px 75px 25px 0px;
+    border-radius: 20px;
+    border: #f2f2f2;
+    box-shadow: lightgrey 5px 5px 20px;
+    cursor: pointer;
+}
+
+.un {
+    font-size: 19px;
+    padding-right: 30px;
+}
+
+.fa-mobile-alt {
+    padding: 0 20px 0px 20px;
+}
+
+.fa-list-ul {
+    padding: 0 20px 0px 15px;
+}
+
+.fa-store {
+    padding: 0 20px 0px 20px;
+}
+
+.fonc:hover {
+    background-color: rgb(224, 191, 224) ;
+}
+
+.fon:hover {
+    background-color: rgb(224, 191, 224) ;
+}
+
+.restaurant h2 {
+    font-family: Shrikhand;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.restaurant {
+    background-color: rgb(228, 227, 227);
+    width: 100%;
+    min-height: 1150px;
+}
+
 .div1 {
     border: #f2f2f2;
-    border-radius: 20px;
+    border-radius: 10px;
     background: white;
     width: calc(100% - 30px);
     background: white;
     margin: 15px;
     box-shadow: lightgrey 5px 5px 20px;
     min-height: 250px;
-  }
+}
 
 .div1 img {
     width: 100%;
     height: 180px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
     object-fit: cover;
-  }
+}
 
-    footer {
-        border: solid black;
-        background-color: black;
-        width: 100%;
-        min-height: 150px;
-    }
+.titre {
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+}
 
-    footer i {
-        color: white;
-    }
-    .logofooter {
-        color: white;
-    }
+.soustitre {
+    margin-left: 10px;
+}
 
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
+.fa-heart {
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 60%;
+}
 
-    .proposer {
-        color: white;
-        text-decoration: unset;
-        font-weight: unset;
+.position {
+    margin-left: 68%;
+}
 
-    }
+footer {
+    border: solid black;
+    background-color: black;
+    width: 99%;
+    min-height: 150px;
+}
+
+footer i {
+    color: white;
+}
+
+.logofooter {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Shrikhand;
+    color: white;
+}
+
+.fa-utensils {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.fa-handshake {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.flex {
+     display: flex;
+     flex-direction: column;
+}
+
+.proposer {
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: unset;
+    font-weight: normal;
+}
+
+.propose {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: unset;
+    font-weight: normal;
+}
