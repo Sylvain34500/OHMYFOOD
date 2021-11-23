@@ -9,7 +9,7 @@ body {
 
 .logo {
     height: 35px;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 .boite {
@@ -28,12 +28,13 @@ body {
 .location .fa-map-marker-alt {
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 h1 {
+    text-align: center;
     font-family: Shrikhand;
-    margin-left: 90px;
+    
     font-size: 29px;
     font-weight: bolder;
     margin-top: 40px;
@@ -46,14 +47,14 @@ h1 {
 }
 
 .explorer {
-    font-size: 19px;
+    font-size: 25px;
     font-weight:normal;
     color: white;
-    width: calc(70% - 80px);
-    margin-left: 120px;
-    margin-top: 30px;
+    width: calc(50% - 90px);
+    margin-left: 330px;
+    margin-top: 60px;
     margin-bottom: 20px;
-    padding: 17px;
+    padding: 15px;
     border-radius: 30px;
     border: unset;
     cursor: pointer;
@@ -70,10 +71,11 @@ h1 {
 }
 
 .fonc {
+    width: calc(100% - 90px);
     font-weight: bold;
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 65px 25px 0px;
+    padding: 25px 759px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
@@ -81,10 +83,11 @@ h1 {
 }
 
 .fon {
+    width: calc(100% - 90px);
     font-weight: bold;
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 80px 25px 0px;
+    padding: 25px 772px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
@@ -92,11 +95,12 @@ h1 {
 }
 
 .foncs {
+    width: calc(100% - 90px);
     font-weight:bold;
     background-color: rgb(224, 191, 224);
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 75px 25px 0px;
+    padding: 25px 763px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
@@ -104,17 +108,13 @@ h1 {
 }
 
 .un {
-    font-size: 19px;
+    font-size: 22px;
     padding-right: 30px; 
-}
-
-.fonctionnement .fas {
-    color: #9356DC ;
 }
 
 .une {
     color: #9356DC ;
-    font-size: 19px;
+    font-size: 22px;
     padding-right: 30px;
 }
 
@@ -123,7 +123,7 @@ h1 {
 }
 
 .fa-mobile-alt {
-    padding: 0 20px 0px 20px;
+    padding: 0 25px 0px 20px;
 }
 
 .fa-list-ul {
@@ -187,8 +187,8 @@ h1 {
 
 .fa-heart {
     margin-top: 10px;
-    font-size: 17px;
-    margin-left: 60%;
+    font-size: 22px;
+    margin-left: 80%;
 }
 
 .fas:hover {
@@ -200,13 +200,13 @@ h1 {
 }
 
 .position {
-    margin-left: 68%;
+    margin-left: 83%;
 }
 
 footer {
     border: solid black;
     background-color: black;
-    width: 99%;
+    width: 100%;
     min-height: 150px;
 }
 
@@ -255,4 +255,511 @@ footer i {
     color: white;
     text-decoration: unset;
     font-weight: normal;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        height: 35px;
+        margin-left: 32%;
+    }
+    
+    .boite {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 350px;
+    }
+    
+    .location {
+        font-weight: lighter;
+        font-size: 18px;
+        width: 100%;
+        background-color: lightgrey;
+    }
+    
+    .location .fa-map-marker-alt {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: Shrikhand;
+        margin-left: 15px;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    
+    .soins {
+        text-align: center;
+        font-size: 23px;
+        margin-left: 8px;
+    }
+    
+    .explorer {
+        font-size: 20px;
+        font-weight:normal;
+        color: white;
+        width: calc(80% - 80px);
+        margin-left: 90px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 17px;
+        border-radius: 30px;
+        border: unset;
+        cursor: pointer;
+        background-color: #FF79DA;
+    }
+    
+    .fonctionnement h2 {
+        font-family: Shrikhand;
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    
+    .fonc {
+        width: calc(100% - 20px);
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 247px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .fon {
+        width: calc(100% - 20px);
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 158px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .foncs {
+        width: calc(100% - 20px);
+        font-weight:bold;
+        background-color: rgb(224, 191, 224);
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 184px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .un {
+        font-size: 19px;
+        padding-right: 30px; 
+    }
+    
+    .une {
+        color: #9356DC ;
+        font-size: 19px;
+        padding-right: 0px;
+    }
+    
+    .fonctionnement button {
+        color: black;
+    }
+    
+    .fa-mobile-alt {
+        padding: 0 25px 0px 20px;
+    }
+    
+    .fa-list-ul {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fa-store {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fonc:hover {
+        background-color: rgb(224, 191, 224) ;
+    }
+    
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+    }
+    
+    .restaurant h2 {
+        font-family: Shrikhand;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .restaurant {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 1150px;
+    }
+    
+    .div1 {
+        border: #f2f2f2;
+        border-radius: 10px;
+        background: white;
+        width: calc(100% - 30px);
+        background: white;
+        margin: 15px;
+        box-shadow: lightgrey 5px 5px 20px;
+        min-height: 250px;
+    }
+    
+    .div1 img {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+    
+    .titre {
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    .soustitre {
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .fa-heart {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 55%;
+    }
+    
+    .fas:hover {
+        color: #FF79DA ;
+    }
+    
+    .restaurant .fas {
+        color: #FF79DA ;
+    }
+    
+    .position {
+        margin-left: 64%;
+    }
+    
+    footer {
+        border: solid black;
+        background-color: black;
+        width: 99%;
+        min-height: 150px;
+    }
+    
+    footer i {
+        color: white;
+    }
+    
+    .logofooter {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Shrikhand;
+        color: white;
+    }
+    
+    .fa-utensils {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+    .fa-handshake {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .flex {
+         display: flex;
+         flex-direction: column;
+    }
+    
+    .proposer {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+    
+    .propose {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .logo {
+        height: 35px;
+        margin-left: 33%;
+    }
+    
+    .boite {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 350px;
+    }
+    
+    .location {
+        font-weight: lighter;
+        font-size: 18px;
+        width: 100%;
+        background-color: lightgrey;
+    }
+    
+    .location .fa-map-marker-alt {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: Shrikhand;
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    
+    .soins {
+        text-align: center;
+        font-size: 23px;
+        margin-left: 8px;
+    }
+    
+    .explorer {
+        font-size: 22px;
+        font-weight:normal;
+        color: white;
+        width: calc(70% - 80px);
+        margin-left: 140px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        padding: 17px;
+        border-radius: 30px;
+        border: unset;
+        cursor: pointer;
+        background-color: #FF79DA;
+    }
+    
+    .fonctionnement h2 {
+        font-family: Shrikhand;
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    
+    .fonc {
+        width: calc(100% - 40px);
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 300px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .fon {
+        width: calc(100% - 40px);
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 310px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .foncs {
+        width: calc(100% - 40px);
+        font-weight:bold;
+        background-color: rgb(224, 191, 224);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 304px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .un {
+        font-size: 22px;
+        padding-right: 30px; 
+    }
+    
+    .fonctionnement .fas {
+        color: #9356DC ;
+    }
+    
+    .une {
+        color: #9356DC ;
+        font-size: 22px;
+        padding-right: 30px;
+    }
+    
+    .fonctionnement button {
+        color: black;
+    }
+    
+    .fa-mobile-alt {
+        padding: 0 25px 0px 20px;
+    }
+    
+    .fa-list-ul {
+        padding: 0 20px 0px 15px;
+    }
+    
+    .fa-store {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fonc:hover {
+        background-color: rgb(224, 191, 224) ;
+    }
+    
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+    }
+    
+    .restaurant h2 {
+        font-family: Shrikhand;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .restaurant {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 1150px;
+    }
+    
+    .div1 {
+        border: #f2f2f2;
+        border-radius: 10px;
+        background: white;
+        width: calc(100% - 30px);
+        background: white;
+        margin: 15px;
+        box-shadow: lightgrey 5px 5px 20px;
+        min-height: 250px;
+    }
+    
+    .div1 img {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+    
+    .titre {
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    .soustitre {
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .fa-heart {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 70%;
+    }
+    
+    .fas:hover {
+        color: #FF79DA ;
+    }
+    
+    .restaurant .fas {
+        color: #FF79DA ;
+    }
+    
+    .position {
+        margin-left: 76%;
+    }
+    
+    footer {
+        border: solid black;
+        background-color: black;
+        width: 99%;
+        min-height: 150px;
+    }
+    
+    footer i {
+        color: white;
+    }
+    
+    .logofooter {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Shrikhand;
+        color: white;
+    }
+    
+    .fa-utensils {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+    .fa-handshake {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .flex {
+         display: flex;
+         flex-direction: column;
+    }
+    
+    .proposer {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+    
+    .propose {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
 }
