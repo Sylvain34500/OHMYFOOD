@@ -191,8 +191,8 @@ h1 {
     margin-left: 80%;
 }
 
-.fas:hover {
-    color: #FF79DA ;
+.un:hover {
+    color: #9356DC ;
 }
 
 .restaurant .fas {
@@ -440,7 +440,6 @@ footer i {
         margin-top: 10px;
         font-size: 20px;
         margin-left: 55%;
-        color: blue;
     }
     
     .un:hover {
@@ -615,10 +614,6 @@ footer i {
         padding-right: 30px; 
     }
     
-    .fonctionnement .fas {
-        color: #9356DC ;
-    }
-    
     .une {
         color: #9356DC ;
         font-size: 22px;
@@ -698,8 +693,8 @@ footer i {
         margin-left: 70%;
     }
     
-    .fas:hover {
-        color: #FF79DA ;
+    .un:hover {
+        color: #9356DC ;
     }
     
     .restaurant .fas {
