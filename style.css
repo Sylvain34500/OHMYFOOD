@@ -173,16 +173,47 @@ h1 {
     object-fit: cover;
 }
 
-.titre {
+.nouveau {
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    border: green;
+    background-color: lightseagreen;
+    color: black;
+    position: absolute;
+    right: 130px;
+    top: 970px;
+}
+
+.Nouveau {
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    border: green;
+    background-color: lightseagreen;
+    color: black;
+    position: absolute;
+    right: 130px;
+    top: 1525px;
+}
+
+h3 {
+    font-size: 20px;
     color: black;
     font-weight: bold;
     margin-left: 10px;
-    text-decoration: none;
+    margin-top: unset;
+    margin-bottom: unset;
+    text-decoration:unset;
+    
+    
 }
 
-.soustitre {
+h4 {
+    margin: unset;
+    margin-left: 10px;
+    font-size: 17px;
     color: black;
     margin-left: 10px;
+    text-decoration: unset;
 }
 
 .fa-heart {
@@ -423,15 +454,37 @@ footer i {
         border-radius: 10px 10px 0 0;
         object-fit: cover;
     }
+
+    .nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 40px;
+        top: 970px;
+    }
     
-    .titre {
+    .Nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 40px;
+        top: 1235px;
+    }
+    
+    h3 {
         color: black;
         font-weight: bold;
         margin-left: 10px;
         text-decoration: none;
     }
     
-    .soustitre {
+    h4 {
         color: black;
         margin-left: 10px;
     }
@@ -674,15 +727,37 @@ footer i {
         border-radius: 10px 10px 0 0;
         object-fit: cover;
     }
+
+    .nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 80px;
+        top: 970px;
+    }
     
-    .titre {
+    .Nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 80px;
+        top: 1290px;
+    }
+    
+    h3{
         color: black;
         font-weight: bold;
         margin-left: 10px;
         text-decoration: none;
     }
     
-    .soustitre {
+    h4 {
         color: black;
         margin-left: 10px;
     }
