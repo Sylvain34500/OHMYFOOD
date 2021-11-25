@@ -32,9 +32,7 @@ body {
 }
 
 h1 {
-    text-align: center;
-    font-family: Shrikhand;
-    
+    text-align: center;    
     font-size: 29px;
     font-weight: bolder;
     margin-top: 40px;
@@ -62,7 +60,6 @@ h1 {
 }
 
 .fonctionnement h2 {
-    font-family: Shrikhand;
     font-size: 25px;
     margin-top: 50px;
     margin-left: 45px;
@@ -71,11 +68,13 @@ h1 {
 }
 
 .fonc {
+    font-size: 20px;
+    text-align: left;
     width: calc(100% - 90px);
     font-weight: bold;
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 759px 25px 0px;
+    padding: 25px 0px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
@@ -83,24 +82,32 @@ h1 {
 }
 
 .fon {
+    font-size: 20px;
+    text-align: left;
     width: calc(100% - 90px);
     font-weight: bold;
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 772px 25px 0px;
+    padding: 25px 0px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
     cursor: pointer;
 }
 
+.fa-store {
+    color: #9356DC;
+}
+
 .foncs {
+    font-size: 20px;
+    text-align: left;
     width: calc(100% - 90px);
     font-weight:bold;
     background-color: rgb(224, 191, 224);
     margin-left: 55px;
     margin-bottom: 20px;
-    padding: 25px 763px 25px 0px;
+    padding: 25px 0px 25px 0px;
     border-radius: 20px;
     border: #f2f2f2;
     box-shadow: lightgrey 5px 5px 20px;
@@ -108,14 +115,21 @@ h1 {
 }
 
 .un {
-    font-size: 22px;
-    padding-right: 30px; 
+    color: white;
+    font-size: 18px;
+    margin-left: -10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #9356DC;
+    border-radius: 50%;
 }
 
 .une {
-    color: #9356DC ;
-    font-size: 22px;
-    padding-right: 30px;
+    color: white;
+    font-size: 18px;
+    margin-left: -10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #9356DC;
+    border-radius: 50%;
 }
 
 .fonctionnement button {
@@ -123,11 +137,11 @@ h1 {
 }
 
 .fa-mobile-alt {
-    padding: 0 25px 0px 20px;
+    padding: 0 25px 0px 25px;
 }
 
 .fa-list-ul {
-    padding: 0 20px 0px 15px;
+    padding: 0 20px 0px 20px;
 }
 
 .fa-store {
@@ -136,14 +150,20 @@ h1 {
 
 .fonc:hover {
     background-color: rgb(224, 191, 224) ;
+    color: #9356DC;
 }
 
 .fon:hover {
     background-color: rgb(224, 191, 224) ;
+    color: #9356DC;
+}
+
+.foncs:hover {
+    background-color: rgb(224, 191, 224) ;
+    color: #9356DC;
 }
 
 .restaurant h2 {
-    font-family: Shrikhand;
     margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 20px;
@@ -174,25 +194,27 @@ h1 {
 }
 
 .nouveau {
+    width: 70px;
     font-size: 18px;
     padding: 5px 15px 5px 15px;
     border: green;
     background-color: lightseagreen;
     color: black;
-    position: absolute;
-    right: 130px;
-    top: 970px;
+    position: relative;
+    right: -340px;
+    top: -90px;
 }
 
 .Nouveau {
+    width: 70px;
     font-size: 18px;
     padding: 5px 15px 5px 15px;
     border: green;
     background-color: lightseagreen;
     color: black;
-    position: absolute;
-    right: 130px;
-    top: 1525px;
+    position: relative;
+    right: 30px;
+    top: 0px;
 }
 
 h3 {
@@ -220,10 +242,6 @@ h4 {
     margin-top: 10px;
     font-size: 22px;
     margin-left: 80%;
-}
-
-.un:hover {
-    color: #9356DC ;
 }
 
 .restaurant .fas {
@@ -344,7 +362,6 @@ footer i {
     }
     
     .fonctionnement h2 {
-        font-family: Shrikhand;
         font-size: 25px;
         margin-top: 50px;
         margin-left: 45px;
@@ -354,10 +371,11 @@ footer i {
     
     .fonc {
         width: calc(100% - 20px);
+        text-align: left;
         font-weight: bold;
         margin-left: 10px;
         margin-bottom: 20px;
-        padding: 25px 247px 25px 0px;
+        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
@@ -366,23 +384,29 @@ footer i {
     
     .fon {
         width: calc(100% - 20px);
+        text-align: left;
         font-weight: bold;
         margin-left: 10px;
         margin-bottom: 20px;
-        padding: 25px 158px 25px 0px;
+        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
         cursor: pointer;
     }
+
+    .fa-store {
+        color: #9356DC;
+    }
     
     .foncs {
         width: calc(100% - 20px);
+        text-align: left;
         font-weight:bold;
         background-color: rgb(224, 191, 224);
         margin-left: 10px;
         margin-bottom: 20px;
-        padding: 25px 184px 25px 0px;
+        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
@@ -390,14 +414,21 @@ footer i {
     }
     
     .un {
-        font-size: 19px;
-        padding-right: 30px; 
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
     }
     
     .une {
-        color: #9356DC ;
-        font-size: 19px;
-        padding-right: 0px;
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
     }
     
     .fonctionnement button {
@@ -418,14 +449,20 @@ footer i {
     
     .fonc:hover {
         background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
     }
     
     .fon:hover {
         background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .foncs:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
     }
     
     .restaurant h2 {
-        font-family: Shrikhand;
         margin-bottom: 30px;
         margin-top: 50px;
         margin-left: 20px;
@@ -493,10 +530,6 @@ footer i {
         margin-top: 10px;
         font-size: 20px;
         margin-left: 55%;
-    }
-    
-    .un:hover {
-        color: #9356DC ;
     }
     
     .restaurant .fas {
@@ -589,7 +622,6 @@ footer i {
     
     h1 {
         text-align: center;
-        font-family: Shrikhand;
         font-size: 29px;
         font-weight: bolder;
         margin-top: 40px;
@@ -617,7 +649,6 @@ footer i {
     }
     
     .fonctionnement h2 {
-        font-family: Shrikhand;
         font-size: 25px;
         margin-top: 50px;
         margin-left: 45px;
@@ -627,10 +658,11 @@ footer i {
     
     .fonc {
         width: calc(100% - 40px);
+        text-align: left;
         font-weight: bold;
         margin-left: 20px;
         margin-bottom: 20px;
-        padding: 25px 300px 25px 0px;
+        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
@@ -639,38 +671,50 @@ footer i {
     
     .fon {
         width: calc(100% - 40px);
+        text-align: left;
         font-weight: bold;
         margin-left: 20px;
         margin-bottom: 20px;
-        padding: 25px 310px 25px 0px;
+        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
         cursor: pointer;
     }
+
+    .fa-store {
+        color: #9356DC;
+    }
     
     .foncs {
         width: calc(100% - 40px);
+        text-align: left;
         font-weight:bold;
         background-color: rgb(224, 191, 224);
         margin-left: 20px;
         margin-bottom: 20px;
-        padding: 25px 304px 25px 0px;
-        border-radius: 20px;
+        padding: 25px 0px 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
         cursor: pointer;
     }
     
     .un {
-        font-size: 22px;
-        padding-right: 30px; 
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
     }
     
     .une {
-        color: #9356DC ;
-        font-size: 22px;
-        padding-right: 30px;
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
     }
     
     .fonctionnement button {
@@ -691,14 +735,20 @@ footer i {
     
     .fonc:hover {
         background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
     }
     
     .fon:hover {
         background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .foncs:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
     }
     
     .restaurant h2 {
-        font-family: Shrikhand;
         margin-bottom: 30px;
         margin-top: 50px;
         margin-left: 20px;
@@ -766,10 +816,6 @@ footer i {
         margin-top: 10px;
         font-size: 20px;
         margin-left: 70%;
-    }
-    
-    .un:hover {
-        color: #9356DC ;
     }
     
     .restaurant .fas {
