@@ -2,14 +2,13 @@
     font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .logo {
     height: 35px;
-    margin-left: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .boite {
@@ -20,15 +19,21 @@ body {
 
 .location {
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 45px;
 }
 
-.location .fa-map-marker-alt {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 40%;
+:placeholder-shown {
+    font-size: 22px;
+    background-color: lightgrey;
+    border: none;
+    margin-left: 10px;
+    color: black;
+
 }
 
 h1 {
@@ -44,19 +49,20 @@ h1 {
     margin-left: 8px;
 }
 
+
 .explorer {
     font-size: 25px;
     font-weight:normal;
     color: white;
-    width: calc(50% - 90px);
-    margin-left: 330px;
+    text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 30px;
+    margin-left: 35%;
+    padding: 15px 35px 15px 35px;
+    border-radius: 40px;
     border: unset;
     cursor: pointer;
-    background-color: #FF79DA;
+    background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
 }
 
 .fonctionnement h2 {
@@ -184,6 +190,7 @@ h1 {
     margin: 50px 0px 80px 80px;
     box-shadow: lightgrey 5px 5px 20px;
     min-height: 460px;
+    position: relative;
 }
 
 a {
@@ -204,9 +211,9 @@ a {
     border: green;
     background-color: lightseagreen;
     color: black;
-    position: relative;
-    right: -340px;
-    top: -90px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .Nouveau {
@@ -216,44 +223,40 @@ a {
     border: green;
     background-color: lightseagreen;
     color: black;
-    position: relative;
-    right: 30px;
-    top: 0px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     font-weight: bold;
     margin-left: 10px;
     margin-top: unset;
     margin-bottom: unset;
     text-decoration:unset;
-    
-    
 }
 
 h4 {
     margin: unset;
     margin-left: 10px;
-    font-size: 17px;
+    font-size: 22px;
     color: black;
     margin-left: 10px;
     text-decoration: unset;
+    font-weight:normal;
 }
 
 .fa-heart {
-    margin-top: 10px;
-    font-size: 22px;
-    margin-left: 80%;
+    font-size: 28px;
+    position: absolute;
+    right: 40px;
+    top: 400px;
 }
 
 .restaurant .fas {
-    color: #FF79DA ;
-}
-
-.position {
-    margin-left: 83%;
+    color: rgba(255,121,218,1);
 }
 
 footer {
@@ -313,9 +316,13 @@ footer i {
 @media screen and (max-width: 700px) {
     .logo {
         height: 35px;
-        margin-left: 32%;
     }
     
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
     .boite {
         background-color: rgb(228, 227, 227);
         width: 100%;
@@ -327,17 +334,11 @@ footer i {
         font-size: 18px;
         width: 100%;
         background-color: lightgrey;
-    }
-    
-    .location .fa-map-marker-alt {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 30%;
+        padding-left: 45px;
     }
     
     h1 {
         text-align: center;
-        font-family: Shrikhand;
         margin-left: 15px;
         font-size: 30px;
         font-weight: bolder;
@@ -351,18 +352,17 @@ footer i {
     }
     
     .explorer {
-        font-size: 20px;
+        font-size: 22px;
         font-weight:normal;
         color: white;
-        width: calc(80% - 80px);
-        margin-left: 90px;
         margin-top: 30px;
         margin-bottom: 20px;
-        padding: 17px;
+        margin-left: 80px;
+        padding: 15px 35px 15px 35px;
         border-radius: 30px;
         border: unset;
         cursor: pointer;
-        background-color: #FF79DA;
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     }
     
     .fonctionnement h2 {
@@ -487,6 +487,7 @@ footer i {
         margin: 15px;
         box-shadow: lightgrey 5px 5px 20px;
         min-height: 250px;
+        position: relative;
     }
     
     .div1 img {
@@ -503,8 +504,8 @@ footer i {
         background-color: lightseagreen;
         color: black;
         position: absolute;
-        right: 40px;
-        top: 970px;
+        right: 20px;
+        top: 20px;
     }
     
     .Nouveau {
@@ -514,8 +515,8 @@ footer i {
         background-color: lightseagreen;
         color: black;
         position: absolute;
-        right: 40px;
-        top: 1235px;
+        right: 20px;
+        top: 20px;
     }
     
     h3 {
@@ -531,17 +532,14 @@ footer i {
     }
     
     .fa-heart {
-        margin-top: 10px;
-        font-size: 20px;
-        margin-left: 55%;
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 200px;
     }
     
     .restaurant .fas {
         color: #FF79DA ;
-    }
-    
-    .position {
-        margin-left: 64%;
     }
     
     footer {
@@ -602,8 +600,13 @@ footer i {
 @media screen and (min-width: 700px) and (max-width: 1000px) {
     .logo {
         height: 35px;
-        margin-left: 33%;
     }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
     
     .boite {
         background-color: rgb(228, 227, 227);
@@ -616,12 +619,7 @@ footer i {
         font-size: 18px;
         width: 100%;
         background-color: lightgrey;
-    }
-    
-    .location .fa-map-marker-alt {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 30%;
+        padding-left: 45px;
     }
     
     h1 {
@@ -638,18 +636,17 @@ footer i {
     }
     
     .explorer {
-        font-size: 22px;
+        font-size: 25px;
         font-weight:normal;
         color: white;
-        width: calc(70% - 80px);
-        margin-left: 140px;
         margin-top: 60px;
         margin-bottom: 20px;
-        padding: 17px;
+        margin-left: 35%;
+        padding: 15px 35px 15px 35px;
         border-radius: 30px;
         border: unset;
         cursor: pointer;
-        background-color: #FF79DA;
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     }
     
     .fonctionnement h2 {
@@ -773,6 +770,7 @@ footer i {
         margin: 50px 0px 50px 50px;
         box-shadow: lightgrey 5px 5px 20px;
         min-height: 280px;
+        position: relative;
     }
     
     .div1 img {
@@ -789,8 +787,8 @@ footer i {
         background-color: lightseagreen;
         color: black;
         position: absolute;
-        right: 80px;
-        top: 970px;
+        right: 20px;
+        top: 20px;
     }
     
     .Nouveau {
@@ -800,8 +798,8 @@ footer i {
         background-color: lightseagreen;
         color: black;
         position: absolute;
-        right: 80px;
-        top: 1290px;
+        right: 20px;
+        top: 20px;
     }
     
     h3{
@@ -817,17 +815,14 @@ footer i {
     }
     
     .fa-heart {
-        margin-top: 10px;
-        font-size: 20px;
-        margin-left: 70%;
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 230px;
     }
     
     .restaurant .fas {
         color: #FF79DA ;
-    }
-    
-    .position {
-        margin-left: 76%;
     }
     
     footer {
