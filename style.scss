@@ -1,0 +1,869 @@
+* {
+    font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+
+    .logo {
+        height: 35px;
+    }
+}
+
+.boite {
+    background-color: rgb(228, 227, 227);
+    width: 100%;
+    min-height: 350px;
+
+    .location {
+        font-weight: lighter;
+        font-size: 20px;
+        width:calc(100%-20px) ;
+        background-color: lightgrey;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 10px 45px; 
+    }
+
+     :placeholder-shown {
+        font-size: 22px;
+        background-color: lightgrey;
+        border: none;
+        margin-left: 10px;
+        color: black; 
+    }
+
+    h1 {
+        text-align: center;    
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 40px; 
+    }
+    
+    .soins {
+        text-align: center;
+        font-size: 23px;
+        margin-left: 8px; 
+    }
+    
+    .explorer {
+        font-size: 25px;
+        font-weight:normal;
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        margin-left: 35%;
+        padding: 15px 35px 15px 35px;
+        border-radius: 40px;
+        border: unset;
+        cursor: pointer;
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%); 
+    }
+}
+
+.fonctionnement {
+
+    h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    
+    .fonc {
+        font-size: 20px;
+        text-align: left;
+        width: calc(100% - 90px);
+        font-weight: bold;
+        margin-left: 55px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer; 
+    }
+    
+    .fon {
+        font-size: 20px;
+        text-align: left;
+        width: calc(100% - 90px);
+        font-weight: bold;
+        margin-left: 55px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer; 
+    }
+    
+    .fa-store {
+        color: #9356DC; 
+    }
+    
+    .foncs {
+        font-size: 20px;
+        text-align: left;
+        width: calc(100% - 90px);
+        font-weight:bold;
+        background-color: rgb(224, 191, 224);
+        margin-left: 55px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer; 
+    }
+    
+    .un {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%; 
+    }
+    
+    .une {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%; 
+    }
+    
+    .fonctionnement button {
+        color: black; 
+    }
+    
+    .fa-mobile-alt {
+        padding: 0 25px 0px 25px; 
+    }
+    
+    .fa-list-ul {
+        padding: 0 20px 0px 20px; 
+    }
+    
+    .fa-store {
+        padding: 0 20px 0px 20px; 
+    }
+    
+    .fonc:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC; 
+    }
+    
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC; 
+    }
+    
+    .foncs:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC; 
+    }
+}
+
+.restaurant {
+    background-color: rgb(228, 227, 227);
+    width: 100%;
+    min-height: 2250px; 
+
+    h2 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 20px; 
+    }
+    
+    .div1 {
+        border: #f2f2f2;
+        border-radius: 10px;
+        background: white;
+        width: calc(100% - 150px);
+        background: white;
+        margin: 50px 0px 80px 80px;
+        box-shadow: lightgrey 5px 5px 20px;
+        min-height: 460px;
+        position: relative; 
+    }
+    
+    a {
+        text-decoration: none; 
+    }
+    
+    .div1 img {
+        width: 100%;
+        height: 380px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover; 
+    }
+    
+    .nouveau {
+        width: 70px;
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px; 
+    }
+    
+    .Nouveau {
+        width: 70px;
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px; 
+    }
+    
+    h3 {
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: unset;
+        margin-bottom: unset;
+        text-decoration:unset; 
+    }
+    
+    h4 {
+        margin: unset;
+        margin-left: 10px;
+        font-size: 22px;
+        color: black;
+        margin-left: 10px;
+        text-decoration: unset;
+        font-weight:normal; 
+    }
+    
+    .fa-heart {
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 400px; 
+    }
+    
+    .restaurant .fas {
+        color: rgba(255,121,218,1); 
+    }
+
+}
+
+footer {
+    border: solid black;
+    background-color: black;
+    width: 100%;
+    min-height: 150px;
+
+    i {
+        color: white;
+    }
+    
+    .logofooter {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Shrikhand;
+        color: white;
+    }
+    
+    .fa-utensils {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+    .fa-handshake {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .flex {
+         display: flex;
+         flex-direction: column;
+    }
+    
+    .proposer {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+    
+    .propose {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .location {
+        font-weight: lighter;
+        font-size: 18px;
+        width: 100%;
+        background-color: lightgrey;
+        padding-left: 45px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-left: 15px;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    
+    .soins {
+        text-align: center;
+        font-size: 23px;
+        margin-left: 8px;
+    }
+    
+    .explorer {
+        font-size: 22px;
+        font-weight:normal;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        border: unset;
+        cursor: pointer;
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    }
+    
+    .fonctionnement h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    
+    .fonc {
+        width: calc(100% - 20px);
+        text-align: left;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .fon {
+        width: calc(100% - 20px);
+        text-align: left;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+
+    .fa-store {
+        color: #9356DC;
+    }
+    
+    .foncs {
+        width: calc(100% - 20px);
+        text-align: left;
+        font-weight:bold;
+        background-color: rgb(224, 191, 224);
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .un {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
+    }
+    
+    .une {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
+    }
+    
+    .fonctionnement button {
+        color: black;
+    }
+    
+    .fa-mobile-alt {
+        padding: 0 25px 0px 20px;
+    }
+    
+    .fa-list-ul {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fa-store {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fonc:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .foncs:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .restaurant h2 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .restaurant {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 1150px;
+    }
+    
+    .div1 {
+        border: #f2f2f2;
+        border-radius: 10px;
+        background: white;
+        width: calc(100% - 30px);
+        background: white;
+        margin: 15px;
+        box-shadow: lightgrey 5px 5px 20px;
+        min-height: 250px;
+        position: relative;
+    }
+    
+    .div1 img {
+        width: 100%;
+        height: 180px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    .Nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    h3 {
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    h4 {
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .fa-heart {
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 200px;
+    }
+    
+    .restaurant .fas {
+        color: #FF79DA ;
+    }
+    
+    footer {
+        border: solid black;
+        background-color: black;
+        width: 99%;
+        min-height: 150px;
+    }
+    
+    footer i {
+        color: white;
+    }
+    
+    .logofooter {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Shrikhand;
+        color: white;
+    }
+    
+    .fa-utensils {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+    .fa-handshake {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .flex {
+         display: flex;
+         flex-direction: column;
+    }
+    
+    .proposer {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+    
+    .propose {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .logo {
+        height: 35px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .boite {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 350px;
+    }
+    
+    .location {
+        font-weight: lighter;
+        font-size: 18px;
+        width: 100%;
+        background-color: lightgrey;
+        padding-left: 45px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    
+    .soins {
+        text-align: center;
+        font-size: 23px;
+        margin-left: 8px;
+    }
+    
+    .explorer {
+        font-size: 25px;
+        font-weight:normal;
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        margin-left: 35%;
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        border: unset;
+        cursor: pointer;
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    }
+    
+    .fonctionnement h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    
+    .fonc {
+        width: calc(100% - 40px);
+        text-align: left;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .fon {
+        width: calc(100% - 40px);
+        text-align: left;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+
+    .fa-store {
+        color: #9356DC;
+    }
+    
+    .foncs {
+        width: calc(100% - 40px);
+        text-align: left;
+        font-weight:bold;
+        background-color: rgb(224, 191, 224);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px 0px 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+    }
+    
+    .un {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
+    }
+    
+    .une {
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+        padding: 5px 10px 5px 10px;
+        background-color: #9356DC;
+        border-radius: 50%;
+    }
+    
+    .fonctionnement button {
+        color: black;
+    }
+    
+    .fa-mobile-alt {
+        padding: 0 25px 0px 20px;
+    }
+    
+    .fa-list-ul {
+        padding: 0 20px 0px 15px;
+    }
+    
+    .fa-store {
+        padding: 0 20px 0px 20px;
+    }
+    
+    .fonc:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .foncs:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC;
+    }
+    
+    .restaurant h2 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .restaurant {
+        background-color: rgb(228, 227, 227);
+        width: 100%;
+        min-height: 1450px;
+    }
+    
+    .div1 {
+        border: #f2f2f2;
+        border-radius: 10px;
+        background: white;
+        width: calc(100% - 100px);
+        background: white;
+        margin: 50px 0px 50px 50px;
+        box-shadow: lightgrey 5px 5px 20px;
+        min-height: 280px;
+        position: relative;
+    }
+    
+    .div1 img {
+        width: 100%;
+        height: 205px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    .Nouveau {
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        border: green;
+        background-color: lightseagreen;
+        color: black;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    h3{
+        color: black;
+        font-weight: bold;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    h4 {
+        color: black;
+        margin-left: 10px;
+    }
+    
+    .fa-heart {
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 230px;
+    }
+    
+    .restaurant .fas {
+        color: #FF79DA ;
+    }
+    
+    footer {
+        border: solid black;
+        background-color: black;
+        width: 99%;
+        min-height: 150px;
+    }
+    
+    footer i {
+        color: white;
+    }
+    
+    .logofooter {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-family: Shrikhand;
+        color: white;
+    }
+    
+    .fa-utensils {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+    .fa-handshake {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .flex {
+         display: flex;
+         flex-direction: column;
+    }
+    
+    .proposer {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+    
+    .propose {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+}
