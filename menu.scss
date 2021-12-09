@@ -8,39 +8,62 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center; 
 
     .fa-arrow-left {
-        font-size: 20px;
-        margin: 0px 0px 30px 40px;
+        font-size: 25px;
+        margin: 0px 0px 0px 40px;
+        padding-top: 20px;
+    }
+
+    .Logo {
+        display: flex;
+        justify-content: center;
     }
 
     .logo {
-        height: 35px;
+        height: 40px;
+        margin-top: -35px;
+        margin-bottom: 10px;
     }
 }
 
 .background{
     width: 100%;
-    height: 400px;
+    height: 720px;
     background: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: cover;   
 }
 
 .boite {
-    margin-top: -50px;
+    margin-top: -100px;
     background-color: rgb(228, 227, 227);
     width: 100%;
     border-radius: 50px 50px 0 0;
     padding: 0px 20px 0 20px;
+    position: relative;
+    
 
-    .entrees h1 {
-        text-align: center;    
-        font-size: 29px;
+    h1 {   
+        font-size: 33px;
         font-weight: bolder;
-        margin-top: 40px;
+        padding-top: 50px;
+        padding-left: 10px;
         font-family: 'Shrikhand', cursive;
+    }
+
+    .fa-heart {
+        font-size: 33px;
+        position: absolute;
+        right: 45px;
+        top: 60px; 
+    }
+
+    h2 {
+        font-weight: normal;
+    }
+
+    a {
+        text-decoration: none;
     }
     
     .div1 {
@@ -49,20 +72,25 @@ header {
         background: white;
         width: 100%;
         background: white;
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0 20px 0;
         box-shadow: lightgrey 5px 5px 20px;
         min-height: 90px;
+        display: flex;
     }
     
-    a {
-        text-decoration: none;
+    .flex {
+        flex: 1;
     }
     
+    .prix {
+        width: 60px;
+        text-align: center;
+    }
+
     h3 {
         font-size: 20px;
         color: black;
         font-weight: bold;
-        margin-left: 10px;
         margin-top: unset;
         margin-bottom: unset;
         text-decoration:unset;
@@ -70,22 +98,22 @@ header {
     
     h4 {
         margin: unset;
-        margin-left: 10px;
         font-size: 17px;
         color: black;
-        margin-left: 10px;
         text-decoration: unset;
+    }
+
+    .centre {
+        text-align: center;
     }
     
     .commander {
         font-size: 25px;
         font-weight:normal;
         color: white;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 20px;
-        margin-left: 35%;
-        padding: 15px 35px 15px 35px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        padding: 15px 50px 15px 50px;
         border-radius: 40px;
         border: unset;
         cursor: pointer;
@@ -144,5 +172,29 @@ footer {
         color: white;
         text-decoration: unset;
         font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .background{
+        height: 750px;
+        background-size:contain;
+    }
+
+    .boite {
+        margin-top: -520px;  
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    
+    .background{
+        height: 750px;
+        background-size:contain;
+    }
+
+    .boite {
+        margin-top: -350px;  
     }
 }
