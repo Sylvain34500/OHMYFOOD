@@ -61,12 +61,15 @@ header .logo {
   margin-left: 8px;
 }
 
+.boite .centre {
+  text-align: center;
+}
+
 .boite .explorer {
   font-size: 25px;
   font-weight: normal;
   color: white;
-  text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 20px;
   padding: 15px 35px 15px 35px;
   border-radius: 40px;
@@ -185,16 +188,17 @@ header .logo {
 .restaurant {
   background-color: #e4e3e3;
   width: 100%;
-  min-height: 2250px;
+  height: 2250px;
 }
 
 .restaurant h2 {
   margin-bottom: 30px;
-  margin-top: 50px;
-  margin-left: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .restaurant .div1 {
+  padding-bottom: 50px;
   border: #f2f2f2;
   border-radius: 10px;
   background: white;
@@ -203,8 +207,8 @@ header .logo {
   margin: 50px 0px 80px 80px;
   -webkit-box-shadow: lightgrey 5px 5px 20px;
           box-shadow: lightgrey 5px 5px 20px;
-  min-height: 460px;
   position: relative;
+  height: 400px;
 }
 
 .restaurant a {
@@ -334,46 +338,10 @@ footer .propose {
 }
 
 @media screen and (max-width: 700px) {
-  .location {
-    font-weight: lighter;
-    font-size: 18px;
-    width: 100%;
-    background-color: lightgrey;
-    padding-left: 45px;
+  .boite .explorer {
+    margin-top: 20px;
   }
-  h1 {
-    text-align: center;
-    margin-left: 15px;
-    font-size: 30px;
-    font-weight: bolder;
-    margin-top: 40px;
-  }
-  .soins {
-    text-align: center;
-    font-size: 23px;
-    margin-left: 8px;
-  }
-  .explorer {
-    font-size: 22px;
-    font-weight: normal;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 80px;
-    padding: 15px 35px 15px 35px;
-    border-radius: 30px;
-    border: unset;
-    cursor: pointer;
-    background: linear-gradient(5deg, #ff79da 0%, #9356dc 100%);
-  }
-  .fonctionnement h2 {
-    font-size: 25px;
-    margin-top: 50px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    font-weight: bolder;
-  }
-  .fonc {
+  .fonctionnement .fonc {
     width: calc(100% - 20px);
     text-align: left;
     font-weight: bold;
@@ -386,7 +354,7 @@ footer .propose {
             box-shadow: lightgrey 5px 5px 20px;
     cursor: pointer;
   }
-  .fon {
+  .fonctionnement .fon {
     width: calc(100% - 20px);
     text-align: left;
     font-weight: bold;
@@ -399,10 +367,7 @@ footer .propose {
             box-shadow: lightgrey 5px 5px 20px;
     cursor: pointer;
   }
-  .fa-store {
-    color: #9356DC;
-  }
-  .foncs {
+  .fonctionnement .foncs {
     width: calc(100% - 20px);
     text-align: left;
     font-weight: bold;
@@ -416,76 +381,35 @@ footer .propose {
             box-shadow: lightgrey 5px 5px 20px;
     cursor: pointer;
   }
-  .un {
-    color: white;
-    font-size: 18px;
-    margin-left: -10px;
-    padding: 5px 10px 5px 10px;
-    background-color: #9356DC;
-    border-radius: 50%;
-  }
-  .une {
-    color: white;
-    font-size: 18px;
-    margin-left: -10px;
-    padding: 5px 10px 5px 10px;
-    background-color: #9356DC;
-    border-radius: 50%;
-  }
-  .fonctionnement button {
-    color: black;
-  }
-  .fa-mobile-alt {
-    padding: 0 25px 0px 20px;
-  }
-  .fa-list-ul {
-    padding: 0 20px 0px 20px;
-  }
-  .fa-store {
-    padding: 0 20px 0px 20px;
-  }
-  .fonc:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
-  }
-  .fon:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
-  }
-  .foncs:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
+  .restaurant {
+    height: 1300px;
   }
   .restaurant h2 {
     margin-bottom: 30px;
     margin-top: 50px;
     margin-left: 20px;
   }
-  .restaurant {
-    background-color: #e4e3e3;
-    width: 100%;
-    min-height: 1150px;
-  }
-  .div1 {
+  .restaurant .div1 {
     border: #f2f2f2;
     border-radius: 10px;
     background: white;
     width: calc(100% - 30px);
     background: white;
     margin: 15px;
+    margin-bottom: 55px;
     -webkit-box-shadow: lightgrey 5px 5px 20px;
             box-shadow: lightgrey 5px 5px 20px;
-    min-height: 250px;
+    height: 200px;
     position: relative;
   }
-  .div1 img {
+  .restaurant .div1 img {
     width: 100%;
     height: 180px;
     border-radius: 10px 10px 0 0;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .nouveau {
+  .restaurant .nouveau {
     font-size: 18px;
     padding: 5px 15px 5px 15px;
     border: green;
@@ -495,7 +419,7 @@ footer .propose {
     right: 20px;
     top: 20px;
   }
-  .Nouveau {
+  .restaurant .Nouveau {
     font-size: 18px;
     padding: 5px 15px 5px 15px;
     border: green;
@@ -505,75 +429,21 @@ footer .propose {
     right: 20px;
     top: 20px;
   }
-  h3 {
+  .restaurant h3 {
     color: black;
     font-weight: bold;
     margin-left: 10px;
     text-decoration: none;
   }
-  h4 {
+  .restaurant h4 {
     color: black;
     margin-left: 10px;
   }
-  .fa-heart {
+  .restaurant .fa-heart {
     font-size: 28px;
     position: absolute;
     right: 40px;
     top: 200px;
-  }
-  .restaurant .fas {
-    color: #FF79DA;
-  }
-  footer {
-    border: solid black;
-    background-color: black;
-    width: 99%;
-    min-height: 150px;
-  }
-  footer i {
-    color: white;
-  }
-  .logofooter {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-family: Shrikhand;
-    color: white;
-  }
-  .fa-utensils {
-    margin-left: 10px;
-    font-size: 13px;
-  }
-  .fa-handshake {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 13px;
-  }
-  .flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .proposer {
-    font-size: 13px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    color: white;
-    text-decoration: unset;
-    font-weight: normal;
-  }
-  .propose {
-    font-size: 13px;
-    margin-left: 10px;
-    margin-top: 5px;
-    color: white;
-    text-decoration: unset;
-    font-weight: normal;
   }
 }
 
@@ -616,9 +486,6 @@ footer .propose {
     font-size: 25px;
     font-weight: normal;
     color: white;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-left: 35%;
     padding: 15px 35px 15px 35px;
     border-radius: 30px;
     border: unset;
