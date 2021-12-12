@@ -195,6 +195,12 @@ footer .propose {
   .boite {
     margin-top: -520px;
   }
+  .boite h1 {
+    font-size: 25px;
+  }
+  .boite .fa-heart {
+    font-size: 25px;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
