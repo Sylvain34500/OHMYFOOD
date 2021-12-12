@@ -24,7 +24,7 @@ header .Logo {
 }
 
 header .logo {
-  height: 40px;
+  height: 35px;
   margin-top: -35px;
   margin-bottom: 10px;
 }
@@ -39,7 +39,7 @@ header .logo {
 }
 
 .boite h1 {
-  font-size: 33px;
+  font-size: 30px;
   font-weight: bolder;
   padding-top: 50px;
   padding-left: 10px;
@@ -47,7 +47,7 @@ header .logo {
 }
 
 .boite .fa-heart {
-  font-size: 33px;
+  font-size: 30px;
   position: absolute;
   right: 45px;
   top: 60px;
