@@ -27,6 +27,27 @@ header {
     }
 }
 
+    .background {
+        width: 100%;
+        min-height: 720px;
+        background-size: cover; 
+    }
+
+    .restaurant1 {
+        background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    }
+
+    .restaurant2 {
+        background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    }
+    .restaurant3 {
+        background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    }
+
+    .restaurant4 {
+        background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    }
+
 .boite {
     margin-top: -100px;
     background-color: rgb(228, 227, 227);
