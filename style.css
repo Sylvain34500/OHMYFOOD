@@ -74,8 +74,17 @@ header .logo {
   padding: 15px 35px 15px 35px;
   border-radius: 40px;
   border: unset;
-  cursor: pointer;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
   background: linear-gradient(5deg, #ff79da 0%, #9356dc 100%);
+}
+
+.boite .explorer:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+  padding: 25px 70px 25px 70px;
+  font-size: 28px;
 }
 
 .fonctionnement h2 {
@@ -116,8 +125,15 @@ header .logo {
   border-radius: 50%;
 }
 
-.fonctionnement .fonctionnement button {
-  color: black;
+.fonctionnement .fon:hover {
+  background-color: #e0bfe0;
+  color: #9356DC;
+  -webkit-transition: 3s;
+  transition: 3s;
+  font-size: 23px;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .fonctionnement .fa-mobile-alt {
@@ -130,21 +146,6 @@ header .logo {
 
 .fonctionnement .fa-store {
   padding: 0 20px 0px 20px;
-}
-
-.fonctionnement .fonc:hover {
-  background-color: #e0bfe0;
-  color: #9356DC;
-}
-
-.fonctionnement .fon:hover {
-  background-color: #e0bfe0;
-  color: #9356DC;
-}
-
-.fonctionnement .foncs:hover {
-  background-color: #e0bfe0;
-  color: #9356DC;
 }
 
 .restaurant {
@@ -321,37 +322,10 @@ footer .propose {
   .boite .explorer {
     margin-top: 20px;
   }
-  .fonctionnement .fonc {
-    width: calc(100% - 20px);
-    text-align: left;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    padding: 25px 0px 25px 0px;
-    border-radius: 20px;
-    border: #f2f2f2;
-    -webkit-box-shadow: lightgrey 5px 5px 20px;
-            box-shadow: lightgrey 5px 5px 20px;
-    cursor: pointer;
-  }
   .fonctionnement .fon {
     width: calc(100% - 20px);
     text-align: left;
     font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    padding: 25px 0px 25px 0px;
-    border-radius: 20px;
-    border: #f2f2f2;
-    -webkit-box-shadow: lightgrey 5px 5px 20px;
-            box-shadow: lightgrey 5px 5px 20px;
-    cursor: pointer;
-  }
-  .fonctionnement .foncs {
-    width: calc(100% - 20px);
-    text-align: left;
-    font-weight: bold;
-    background-color: #e0bfe0;
     margin-left: 10px;
     margin-bottom: 20px;
     padding: 25px 0px 25px 0px;
@@ -479,7 +453,7 @@ footer .propose {
     margin-bottom: 30px;
     font-weight: bolder;
   }
-  .fonc {
+  .fonctionnement .fon {
     width: calc(100% - 40px);
     text-align: left;
     font-weight: bold;
@@ -492,36 +466,10 @@ footer .propose {
             box-shadow: lightgrey 5px 5px 20px;
     cursor: pointer;
   }
-  .fon {
-    width: calc(100% - 40px);
-    text-align: left;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 25px 0px 25px 0px;
-    border-radius: 20px;
-    border: #f2f2f2;
-    -webkit-box-shadow: lightgrey 5px 5px 20px;
-            box-shadow: lightgrey 5px 5px 20px;
-    cursor: pointer;
-  }
-  .fa-store {
+  .fonctionnement .fa-store {
     color: #9356DC;
   }
-  .foncs {
-    width: calc(100% - 40px);
-    text-align: left;
-    font-weight: bold;
-    background-color: #e0bfe0;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 25px 0px 20px;
-    border: #f2f2f2;
-    -webkit-box-shadow: lightgrey 5px 5px 20px;
-            box-shadow: lightgrey 5px 5px 20px;
-    cursor: pointer;
-  }
-  .un {
+  .fonctionnement .un {
     color: white;
     font-size: 18px;
     margin-left: -10px;
@@ -529,37 +477,14 @@ footer .propose {
     background-color: #9356DC;
     border-radius: 50%;
   }
-  .une {
-    color: white;
-    font-size: 18px;
-    margin-left: -10px;
-    padding: 5px 10px 5px 10px;
-    background-color: #9356DC;
-    border-radius: 50%;
-  }
-  .fonctionnement button {
-    color: black;
-  }
-  .fa-mobile-alt {
+  .fonctionnement .fa-mobile-alt {
     padding: 0 25px 0px 20px;
   }
-  .fa-list-ul {
+  .fonctionnement .fa-list-ul {
     padding: 0 20px 0px 15px;
   }
-  .fa-store {
+  .fonctionnement .fa-store {
     padding: 0 20px 0px 20px;
-  }
-  .fonc:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
-  }
-  .fon:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
-  }
-  .foncs:hover {
-    background-color: #e0bfe0;
-    color: #9356DC;
   }
   .restaurant h2 {
     margin-bottom: 30px;
