@@ -80,20 +80,6 @@ header {
         font-weight: bolder;
     }
     
-    .fonc {
-        font-size: 20px;
-        text-align: left;
-        width: calc(100% - 90px);
-        font-weight: bold;
-        margin-left: 55px;
-        margin-bottom: 20px;
-        padding: 25px 0px 25px 0px;
-        border-radius: 20px;
-        border: #f2f2f2;
-        box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer; 
-    }
-    
     .fon {
         font-size: 20px;
         text-align: left;
@@ -106,37 +92,14 @@ header {
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
         cursor: pointer; 
+        transition: 2s;
     }
     
     .fa-store {
         color: #9356DC; 
     }
     
-    .foncs {
-        font-size: 20px;
-        text-align: left;
-        width: calc(100% - 90px);
-        font-weight:bold;
-        background-color: rgb(224, 191, 224);
-        margin-left: 55px;
-        margin-bottom: 20px;
-        padding: 25px 0px 25px 0px;
-        border-radius: 20px;
-        border: #f2f2f2;
-        box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer; 
-    }
-    
     .un {
-        color: white;
-        font-size: 18px;
-        margin-left: -10px;
-        padding: 5px 10px 5px 10px;
-        background-color: #9356DC;
-        border-radius: 50%; 
-    }
-    
-    .une {
         color: white;
         font-size: 18px;
         margin-left: -10px;
@@ -255,17 +218,41 @@ header {
         text-decoration: unset;
         font-weight:normal; 
     }
+}
+
+.moncoeur {
     
-    .fa-heart {
+    .far {
         font-size: 28px;
         position: absolute;
         right: 40px;
         top: 400px; 
     }
-    
-    .fas {
-        color: rgba(255,121,218,1); 
+
+    .far.hover {
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 400px; 
+        visibility: hidden;
     }
+
+    .fas {
+        font-size: 28px;
+        position: absolute;
+        right: 40px;
+        top: 400px; 
+    
+
+    }
+    
+    .fas:hover {
+        color: rgba(255,121,218,1); 
+        transition: 1s;
+        visibility:visible;
+    }
+
+    
 
 }
 

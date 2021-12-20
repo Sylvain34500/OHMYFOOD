@@ -86,21 +86,6 @@ header .logo {
   font-weight: bolder;
 }
 
-.fonctionnement .fonc {
-  font-size: 20px;
-  text-align: left;
-  width: calc(100% - 90px);
-  font-weight: bold;
-  margin-left: 55px;
-  margin-bottom: 20px;
-  padding: 25px 0px 25px 0px;
-  border-radius: 20px;
-  border: #f2f2f2;
-  -webkit-box-shadow: lightgrey 5px 5px 20px;
-          box-shadow: lightgrey 5px 5px 20px;
-  cursor: pointer;
-}
-
 .fonctionnement .fon {
   font-size: 20px;
   text-align: left;
@@ -114,38 +99,15 @@ header .logo {
   -webkit-box-shadow: lightgrey 5px 5px 20px;
           box-shadow: lightgrey 5px 5px 20px;
   cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .fonctionnement .fa-store {
   color: #9356DC;
 }
 
-.fonctionnement .foncs {
-  font-size: 20px;
-  text-align: left;
-  width: calc(100% - 90px);
-  font-weight: bold;
-  background-color: #e0bfe0;
-  margin-left: 55px;
-  margin-bottom: 20px;
-  padding: 25px 0px 25px 0px;
-  border-radius: 20px;
-  border: #f2f2f2;
-  -webkit-box-shadow: lightgrey 5px 5px 20px;
-          box-shadow: lightgrey 5px 5px 20px;
-  cursor: pointer;
-}
-
 .fonctionnement .un {
-  color: white;
-  font-size: 18px;
-  margin-left: -10px;
-  padding: 5px 10px 5px 10px;
-  background-color: #9356DC;
-  border-radius: 50%;
-}
-
-.fonctionnement .une {
   color: white;
   font-size: 18px;
   margin-left: -10px;
@@ -267,15 +229,33 @@ header .logo {
   font-weight: normal;
 }
 
-.restaurant .fa-heart {
+.moncoeur .far {
   font-size: 28px;
   position: absolute;
   right: 40px;
   top: 400px;
 }
 
-.restaurant .fas {
+.moncoeur .far.hover {
+  font-size: 28px;
+  position: absolute;
+  right: 40px;
+  top: 400px;
+  visibility: hidden;
+}
+
+.moncoeur .fas {
+  font-size: 28px;
+  position: absolute;
+  right: 40px;
+  top: 400px;
+}
+
+.moncoeur .fas:hover {
   color: #ff79da;
+  -webkit-transition: 1s;
+  transition: 1s;
+  visibility: visible;
 }
 
 footer {
