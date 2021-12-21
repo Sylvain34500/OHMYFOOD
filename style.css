@@ -85,6 +85,8 @@ header .logo {
   cursor: pointer;
   padding: 25px 70px 25px 70px;
   font-size: 27px;
+  -webkit-box-shadow: grey 5px 5px 20px;
+          box-shadow: grey 5px 5px 20px;
 }
 
 .fonctionnement h2 {
