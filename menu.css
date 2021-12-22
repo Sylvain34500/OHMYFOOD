@@ -240,12 +240,6 @@ header .logo {
   transition: 2s;
 }
 
-.boite h3:hover {
-  font-size: 22px;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
 .boite h4 {
   margin: unset;
   font-size: 17px;
