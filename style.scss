@@ -250,6 +250,13 @@ header {
     &:hover .fas {
         opacity: 1;
     } 
+
+    .solides {
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+    }
 }
 
 footer {

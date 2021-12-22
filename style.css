@@ -262,6 +262,13 @@ header .logo {
   opacity: 1;
 }
 
+.moncoeur .solides {
+  background: linear-gradient(5deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+
 footer {
   border: solid black;
   background-color: black;

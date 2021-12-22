@@ -53,6 +53,111 @@ header .logo {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
 
+.entrees .div1 {
+  -webkit-animation: 3s 0.5s 1 both apparait;
+          animation: 3s 0.5s 1 both apparait;
+}
+
+.entrees .anim1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.entrees .anim2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.entrees .anim3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.entrees .anim4 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes apparait {
+  from {
+    opacity: 0;
+    padding: 10px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes apparait {
+  from {
+    opacity: 0;
+    padding: 10px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.PLATS .div1 {
+  -webkit-animation: 3s 0.5s 1 both apparait;
+          animation: 3s 0.5s 1 both apparait;
+}
+
+.PLATS .anim1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.PLATS .anim2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.PLATS .anim3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+@keyframes apparait {
+  from {
+    opacity: 0;
+    padding: 10px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.desserts .div1 {
+  -webkit-animation: 3s 0.5s 1 both apparait;
+          animation: 3s 0.5s 1 both apparait;
+}
+
+.desserts .anim1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.desserts .anim2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.desserts .anim3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+@keyframes apparait {
+  from {
+    opacity: 0;
+    padding: 10px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .boite {
   margin-top: -100px;
   background-color: #e4e3e3;
@@ -100,14 +205,6 @@ header .logo {
   min-height: 70px;
   -webkit-transition: 2s;
   transition: 2s;
-}
-
-.boite .div1:hover {
-  -webkit-transition: 3s;
-  transition: 3s;
-  padding: 15px 0 15px 0;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 
 .boite .flex {
@@ -171,19 +268,20 @@ header .logo {
   padding: 15px 50px 15px 50px;
   border-radius: 40px;
   border: unset;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: silver 5px 5px 20px;
+          box-shadow: silver 5px 5px 20px;
   background: linear-gradient(5deg, #ff79da 0%, #9356dc 100%);
 }
 
 .boite .commander:hover {
-  -webkit-transition: 2s;
-  transition: 2s;
   cursor: pointer;
   padding: 15px 90px 15px 90px;
   font-size: 28px;
   -webkit-box-shadow: grey 5px 5px 20px;
           box-shadow: grey 5px 5px 20px;
+  background: linear-gradient(5deg, #fbb1e7 0%, #b089df 100%);
 }
 
 footer {
