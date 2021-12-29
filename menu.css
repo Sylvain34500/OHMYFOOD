@@ -226,30 +226,36 @@ header .logo {
 }
 
 .boite .a:hover .cocher {
-  -webkit-transform: translate(-100px, 0);
-          transform: translate(-100px, 0);
   opacity: 1;
+  width: 100px;
 }
 
-.boite .a:hover .prix {
-  -webkit-transform: translate(-80px, 0);
-          transform: translate(-80px, 0);
+.boite .boite .a:hover .cocher .fas {
+  -webkit-animation: 1s 0s 1 both rotation;
+          animation: 1s 0s 1 both rotation;
+}
+
+@keyframe rotation {
+  .boite to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  .boite from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .boite .cocher {
   border: #f2f2f2;
   border-radius: 0 20px 20px 0;
   background-color: lightgreen;
-  width: 100px;
+  width: 0px;
   height: 80px;
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
-  margin-right: -100px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
+  overflow: hidden;
 }
 
 .boite .fa-check-circle {
