@@ -230,7 +230,7 @@ header .logo {
   width: 100px;
 }
 
-.boite .boite .a:hover .cocher .fas {
+.boite .a:hover .cocher .fas {
   -webkit-animation: 1s 0s 1 both rotation;
           animation: 1s 0s 1 both rotation;
 }
