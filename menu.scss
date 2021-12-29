@@ -183,7 +183,7 @@ header {
         animation: 1s 0s 1 both rotation;
     }
     
-    @keyframe rotation {
+    @keyframes rotation {
     to { transform:rotate(0deg); }
     from{ transform:rotate(360deg); }
     }
