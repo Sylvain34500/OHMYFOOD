@@ -174,24 +174,29 @@ header {
 
     .a {
         &:hover  .cocher {
-            transform:translate(-100px, 0);
             opacity: 1;
+            width: 100px;
         }
-        &:hover .prix {
-            transform:translate(-80px, 0);
-        }
+    }
+
+    .boite .a:hover .cocher .fas {
+        animation: 1s 0s 1 both rotation;
+    }
+    
+    @keyframe rotation {
+    to { transform:rotate(0deg); }
+    from{ transform:rotate(360deg); }
     }
 
     .cocher {
         border: #f2f2f2;
         border-radius: 0 20px 20px 0;
         background-color:lightgreen;
-        width: 100px;
+        width: 0px;
         height: 80px;
-        transition: transform 330ms ease-in-out;
-        margin-right: -100px;
-        opacity: 0;
+        opacity: 1;
         transition: 1s;
+        overflow: hidden;
     }
     
 
