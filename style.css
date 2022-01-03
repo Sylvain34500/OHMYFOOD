@@ -11,9 +11,23 @@ body {
   height: 100%;
   position: absolute;
   z-index: 99;
-  background: black;
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, rgba(145, 70, 252, 0.5) 100%);
   -webkit-animation: 1s 5s 1 both disparait;
           animation: 1s 5s 1 both disparait;
+}
+
+.loader {
+  width: 80px;
+  height: 80px;
+  margin-left: 45%;
+  margin-top: 20%;
+  background: #ffffff33;
+  border: 10px solid white;
+  border-right: 10px solid #c258e9;
+  border-radius: 50%;
+  -webkit-animation: 1s 0s infinite both disparait;
+          animation: 1s 0s infinite both disparait;
 }
 
 @-webkit-keyframes disparait {
@@ -45,6 +59,7 @@ header {
 
 header .logo {
   height: 35px;
+  padding: 15px;
 }
 
 .boite {
