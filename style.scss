@@ -48,7 +48,7 @@ header {
 .boite {
     background-color: rgb(228, 227, 227);
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
    
 
     .location {
@@ -126,11 +126,12 @@ header {
     .fon {
         font-size: 20px;
         text-align: left;
-        width: calc(35% - 100px);
+        width: calc(33% - 30px);
         font-weight: bold;
-        margin-left: 55px;
+        margin-left: 30px;
         margin-bottom: 20px;
         padding: 25px 0px 25px 0px;
+        padding-left: -30px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
@@ -442,92 +443,101 @@ footer {
     .boite {
         background-color: rgb(228, 227, 227);
         width: 100%;
-        min-height: 350px;
-    }
+        padding-bottom: 80px;
     
-    .location {
-        font-weight: lighter;
-        font-size: 18px;
-        width: 100%;
-        background-color: lightgrey;
-        padding-left: 45px;
-    }
-    
-    h1 {
-        text-align: center;
-        font-size: 29px;
-        font-weight: bolder;
-        margin-top: 40px;
-    }
-    
-    .soins {
-        text-align: center;
-        font-size: 23px;
-        margin-left: 8px;
-    }
-    
-    .explorer {
-        font-size: 25px;
-        font-weight:normal;
-        color: white;
-        padding: 15px 35px 15px 35px;
-        border-radius: 30px;
-        border: unset;
-        cursor: pointer;
-        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        .location {
+            font-weight: lighter;
+            font-size: 18px;
+            width: 100%;
+            background-color: lightgrey;
+            padding-left: 45px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 29px;
+            font-weight: bolder;
+            margin-top: 40px;
+        }
+        
+        .soins {
+            text-align: center;
+            font-size: 23px;
+            margin-left: 8px;
+        }
     }
     
     .fonctionnement {
+        
     
-    h2 {
-        font-size: 25px;
-        margin-top: 50px;
-        margin-left: 45px;
-        margin-bottom: 30px;
-        font-weight: bolder;
-    }
+        h2 {
+            width: 100%;
+            font-size: 25px;
+            margin-bottom: 30px;
+            font-weight: bolder;
+            
+        }
     
-    .fon {
-        font-size: 15px;
-        text-align: left;
-        width: 25%;
-        font-weight: bold;
-        padding: 25px;
-        padding-left: unset;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        border: #f2f2f2;
-        box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer; 
-        transition: 1s;
-    }
+        .fon {
+            font-size: 20px;
+            text-align: left;
+            width: calc(50% - 20px);
+            font-weight: bold;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding: 25px 0px 25px 0px;
+            border-radius: 20px;
+            border: #f2f2f2;
+            box-shadow: lightgrey 5px 5px 20px;
+            cursor: pointer; 
+            transition: 1s;
+        }
 
-    .fa-store {
-        color: #9356DC;
-    }
+        .fonc {
+            font-size: 20px;
+            text-align: left;
+            width: calc(50% - 20px);
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 80px;
+            padding: 25px 0px 25px 0px;
+            border-radius: 20px;
+            border: #f2f2f2;
+            box-shadow: lightgrey 5px 5px 20px;
+            cursor: pointer; 
+            transition: 1s;
+            position: relative;
+            top: 0px;
+            left: 28%;
+
+        }
+
+        .fa-store {
+            color: #9356DC;
+        }
     
-    .un {
-        color: white;
-        font-size: 18px;
-        margin-left: -10px;
-        padding: 5px 10px 5px 10px;
-        background-color: #9356DC;
-        border-radius: 50%;
-    }
+        .un {
+            color: white;
+            font-size: 18px;
+            margin-left: -10px;
+            padding: 5px 10px 5px 10px;
+            background-color: #9356DC;
+            border-radius: 50%;
+        }
     
-    .fa-mobile-alt {
-        padding: 0 25px 0px 20px;
-    }
+        .fa-mobile-alt {
+            padding: 0 25px 0px 20px;
+        }   
     
-    .fa-list-ul {
-        padding: 0 20px 0px 15px;
-    }
+        .fa-list-ul {
+            padding: 0 20px 0px 15px;
+        }
     
-    .fa-store {
-        padding: 0 20px 0px 20px;
-    }
+        .fa-store {
+            padding: 0 20px 0px 20px;
+        }
     
-}
+    }
     
     .restaurant {
         background-color: rgb(228, 227, 227);
@@ -623,14 +633,14 @@ footer {
 
         .proposes {
             font-size: 13px;
-             margin-left: 10px;
+            margin-left: 10px;
             margin-top: 5px;
             color: white;
             text-decoration: unset;
             font-weight: normal;
         }
 
-        .proposes:hover .adress{
+        .proposes:hover .address{
             opacity: 1;
         }
 
