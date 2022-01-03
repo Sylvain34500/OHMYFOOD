@@ -12,26 +12,28 @@ body {
     position: absolute;
     z-index: 99;
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(145,70,252,0.5) 100%);   
+    background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgba(63,94,251) 100%);   
     animation: 1s 5s 1 both disparait;
-}
 
-.loader {
-    width: 80px;
-    height: 80px;
-    margin-left: 45%;
-    margin-top: 20%;
-    background: #ffffff33;
-    border: 10px solid white;
-    border-right: 10px solid #c258e9;
-    border-radius: 50%;
-    animation: 1s 0s infinite both disparait;
-}
-
-@keyframes disparait {
-    to { opacity:0 }
-    from{ opacity:1 }
+    .loader {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        margin-left: 45%;
+        margin-top: 20%;
+        background: #ffffff33;
+        border: 10px solid white;
+        border-right: 10px solid red;
+        border-left: 10px solid blue;
+        border-radius: 50%;
+        animation: 1s 0s infinite both disparait;
     }
+
+    @keyframes disparait {
+        to { opacity:0 }
+        from{ opacity:1 }
+    }
+}
 
 header {
     display: flex;
