@@ -48,6 +48,7 @@ header {
 .boite {
     background-color: rgb(228, 227, 227);
     width: 100%;
+    padding-bottom: 20px;
    
 
     .location {
@@ -111,12 +112,12 @@ header {
 .fonctionnement {
     display: flex;
     flex-wrap: wrap;
+    
 
     h2 {
         width: 100%;
         font-size: 25px;
-        margin-top: 50px;
-        margin-left: 45px;
+        margin-top: 30px;
         margin-bottom: 30px;
         font-weight: bolder;
         text-align: center;
@@ -177,14 +178,13 @@ header {
     background-color: rgb(228, 227, 227);
     padding: 5px;
     margin-top: 20px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
    
 
     h2 {
-        margin-bottom: 30px;
-        padding-top: 30px;
-        padding-left: 30px;
+        margin-bottom: 10px;
         width: 100%;
         text-align: center;
     }
@@ -311,7 +311,8 @@ footer {
     .logofooter {
         font-size: 18px;
         margin-top: 20px;
-        margin-left: 20px;
+        display: flex;
+        justify-content: center;
         margin-bottom: 20px;
         font-family: 'Shrikhand', cursive;
         color: white;

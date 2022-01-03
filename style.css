@@ -67,6 +67,7 @@ header .logo {
 .boite {
   background-color: #e4e3e3;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .boite .location {
@@ -144,8 +145,7 @@ header .logo {
 .fonctionnement h2 {
   width: 100%;
   font-size: 25px;
-  margin-top: 50px;
-  margin-left: 45px;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-weight: bolder;
   text-align: center;
@@ -206,6 +206,7 @@ header .logo {
   background-color: #e4e3e3;
   padding: 5px;
   margin-top: 20px;
+  padding-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,9 +215,7 @@ header .logo {
 }
 
 .restaurant h2 {
-  margin-bottom: 30px;
-  padding-top: 30px;
-  padding-left: 30px;
+  margin-bottom: 10px;
   width: 100%;
   text-align: center;
 }
@@ -348,7 +347,12 @@ footer i {
 footer .logofooter {
   font-size: 18px;
   margin-top: 20px;
-  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 20px;
   font-family: 'Shrikhand', cursive;
   color: white;
