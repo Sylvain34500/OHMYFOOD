@@ -13,11 +13,11 @@ body {
     z-index: 99;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgb(63,94,251) 100%);   
-    animation: 1s 5s 1 both disparait;
+    animation: 1s 5s 1 both disparait; 
 
     .loader {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         position: relative;
         margin-left: 45%;
         margin-top: 20%;
@@ -48,8 +48,7 @@ header {
 .boite {
     background-color: rgb(228, 227, 227);
     width: 100%;
-    min-height: 350px;
-    text-align: center;
+   
 
     .location {
         font-weight: lighter;
@@ -61,7 +60,7 @@ header {
         padding: 10px 0px 10px 45px; 
     }
 
-     :placeholder-shown {
+    :placeholder-shown {
         font-size: 22px;
         background-color: lightgrey;
         border: none;
@@ -110,8 +109,11 @@ header {
 }
 
 .fonctionnement {
+    display: flex;
+    flex-wrap: wrap;
 
     h2 {
+        width: 100%;
         font-size: 25px;
         margin-top: 50px;
         margin-left: 45px;
@@ -123,7 +125,7 @@ header {
     .fon {
         font-size: 20px;
         text-align: left;
-        width: calc(35% - 70px);
+        width: calc(35% - 100px);
         font-weight: bold;
         margin-left: 55px;
         margin-bottom: 20px;
@@ -171,18 +173,20 @@ header {
 }
 
 .restaurant {
+    font-size: 18px;
     background-color: rgb(228, 227, 227);
     padding: 5px;
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
    
 
     h2 {
         margin-bottom: 30px;
         padding-top: 30px;
         padding-left: 30px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
     }
     
     .div1 {
@@ -190,12 +194,11 @@ header {
         border: #f2f2f2;
         border-radius: 10px;
         background: white;
-        width: calc(50% - 100px);
+        width: calc(50% - 80px);
         background: white;
         margin: 40px;
         box-shadow: lightgrey 5px 5px 20px;
         position: relative; 
-        height: 400px;
     }
     
     a {
@@ -238,7 +241,7 @@ header {
         color: black;
         font-weight: bold;
         margin-left: 10px;
-        margin-top: unset;
+        margin-top: 10px;
         margin-bottom: unset;
         text-decoration:unset; 
     }
@@ -251,6 +254,7 @@ header {
         margin-left: 10px;
         text-decoration: unset;
         font-weight:normal; 
+        margin-bottom: -30px;
     }
 }
 
@@ -296,7 +300,9 @@ header {
 footer {
     border: solid black;
     background-color: black;
-    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 
     i {
         color: white;
@@ -369,22 +375,14 @@ footer {
     
     &:hover  .address {
     opacity: 1;
-    font-size:18px ;
-    padding:  10px;
+    font-size:16px ;
+    padding: 10px 0px 0px 0px;
     }
 }
 
 @media screen and (max-width: 700px) {
     
-    .boite {
-        .explorer {
-            margin-top: 20px;
-        }
-    }
-    
-    
     .fonctionnement {
-    
         .fon {
             width: calc(100% - 20px);
             text-align: left;
@@ -400,14 +398,6 @@ footer {
     }
     
     .restaurant {
-        height: 1300px;
-    
-        h2 {
-            margin-bottom: 30px;
-            margin-top: 50px;
-            margin-left: 20px;
-        }
-    
         .div1 {
             border: #f2f2f2;
             border-radius: 10px;
@@ -428,40 +418,6 @@ footer {
             object-fit: cover;
         }
 
-        .nouveau {
-            font-size: 18px;
-            padding: 5px 15px 5px 15px;
-            border: green;
-            background-color: lightseagreen;
-            color: black;
-            position: absolute;
-            right: 20px;
-            top: 20px;
-        }
-    
-        .Nouveau {
-            font-size: 18px;
-            padding: 5px 15px 5px 15px;
-            border: green;
-            background-color: lightseagreen;
-            color: black;
-            position: absolute;
-            right: 20px;
-            top: 20px;
-        }
-    
-        h3 {
-            color: black;
-            font-weight: bold;
-            margin-left: 10px;
-            text-decoration: none;
-            }
-    
-        h4 {
-            color: black;
-            margin-left: 10px;
-        }
-    
         .fa-heart {
             font-size: 28px;
             position: absolute;
@@ -531,16 +487,18 @@ footer {
     }
     
     .fon {
-        width: calc(100% - 40px);
+        font-size: 15px;
         text-align: left;
+        width: 25%;
         font-weight: bold;
-        margin-left: 20px;
+        padding: 25px;
+        padding-left: unset;
         margin-bottom: 20px;
-        padding: 25px 0px 25px 0px;
         border-radius: 20px;
         border: #f2f2f2;
         box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer;
+        cursor: pointer; 
+        transition: 1s;
     }
 
     .fa-store {
@@ -570,82 +528,44 @@ footer {
     
 }
     
-    .restaurant h2 {
-        margin-bottom: 30px;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
-    
     .restaurant {
         background-color: rgb(228, 227, 227);
         width: 100%;
-        min-height: 1450px;
-    }
-    
-    .div1 {
-        border: #f2f2f2;
-        border-radius: 10px;
-        background: white;
-        width: calc(100% - 100px);
-        background: white;
-        margin: 50px 0px 50px 50px;
-        box-shadow: lightgrey 5px 5px 20px;
-        min-height: 280px;
-        position: relative;
-    }
-    
-    .div1 img {
-        width: 100%;
-        height: 205px;
-        border-radius: 10px 10px 0 0;
-        object-fit: cover;
-    }
 
-    .nouveau {
-        font-size: 18px;
-        padding: 5px 15px 5px 15px;
-        border: green;
-        background-color: lightseagreen;
-        color: black;
-        position: absolute;
-        right: 20px;
-        top: 20px;
+        h2 {
+            margin-bottom: 30px;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+       
+        .div1 {
+            padding-bottom: 50px;
+            border: #f2f2f2;
+            border-radius: 10px;
+            background: white;
+            width: calc(50% - 110px);
+            background: white;
+            margin: 40px;
+            box-shadow: lightgrey 5px 5px 20px;
+            position: relative; 
+        }
+
+        .div1 img {
+            width: 100%;
+            height: 205px;
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
+        }
+
+        .fa-heart {
+            font-size: 28px;
+            position: absolute;
+            right: 40px;
+            top: 230px;
+        }
+        
     }
-    
-    .Nouveau {
-        font-size: 18px;
-        padding: 5px 15px 5px 15px;
-        border: green;
-        background-color: lightseagreen;
-        color: black;
-        position: absolute;
-        right: 20px;
-        top: 20px;
-    }
-    
-    h3{
-        color: black;
-        font-weight: bold;
-        margin-left: 10px;
-        text-decoration: none;
-    }
-    
-    h4 {
-        color: black;
-        margin-left: 10px;
-    }
-    
-    .fa-heart {
-        font-size: 28px;
-        position: absolute;
-        right: 40px;
-        top: 230px;
-    }
-    
-    .restaurant .fas {
-        color: #FF79DA ;
-    }
-    
+ 
     footer {
         border: solid black;
         background-color: black;
