@@ -12,7 +12,7 @@ body {
     position: absolute;
     z-index: 99;
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgba(63,94,251) 100%);   
+    background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgb(63,94,251) 100%);   
     animation: 1s 5s 1 both disparait;
 
     .loader {
@@ -117,12 +117,13 @@ header {
         margin-left: 45px;
         margin-bottom: 30px;
         font-weight: bolder;
+        text-align: center;
     }
     
     .fon {
         font-size: 20px;
         text-align: left;
-        width: calc(100% - 90px);
+        width: calc(35% - 70px);
         font-weight: bold;
         margin-left: 55px;
         margin-bottom: 20px;
@@ -132,6 +133,14 @@ header {
         box-shadow: lightgrey 5px 5px 20px;
         cursor: pointer; 
         transition: 1s;
+    }
+
+    .fon:hover {
+        background-color: rgb(224, 191, 224) ;
+        color: #9356DC; 
+        font-size: 23px;
+        padding: 30px 0px 30px 0px;
+        margin-top: 20px;
     }
     
     .fa-store {
@@ -145,15 +154,6 @@ header {
         padding: 5px 10px 5px 10px;
         background-color: #9356DC;
         border-radius: 50%; 
-    }
-
-    .fon:hover {
-        background-color: rgb(224, 191, 224) ;
-        color: #9356DC; 
-        font-size: 23px;
-        padding: 30px 0px 30px 0px;
-        margin-bottom: 30px;
-        margin-top: 20px;
     }
     
     .fa-mobile-alt {
@@ -173,11 +173,16 @@ header {
 .restaurant {
     background-color: rgb(228, 227, 227);
     padding: 5px;
+    margin-top: 20px;
+   
 
     h2 {
         margin-bottom: 30px;
         padding-top: 30px;
         padding-left: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     .div1 {
@@ -185,9 +190,9 @@ header {
         border: #f2f2f2;
         border-radius: 10px;
         background: white;
-        width: calc(100% - 150px);
+        width: calc(50% - 100px);
         background: white;
-        margin: 50px 0px 80px 80px;
+        margin: 40px;
         box-shadow: lightgrey 5px 5px 20px;
         position: relative; 
         height: 400px;
@@ -291,7 +296,7 @@ header {
 footer {
     border: solid black;
     background-color: black;
-    min-height: 150px;
+    text-align: center;
 
     i {
         color: white;
@@ -338,6 +343,34 @@ footer {
         color: white;
         text-decoration: unset;
         font-weight: normal;
+    }
+    .proposes {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+
+    }
+
+    .address {
+        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 15px;
+        opacity: 0;
+        transition: 1s;
+    }
+
+}
+
+.contact {
+    
+    &:hover  .address {
+    opacity: 1;
+    font-size:18px ;
+    padding:  10px;
     }
 }
 
@@ -618,52 +651,73 @@ footer {
         background-color: black;
         width: 99%;
         min-height: 150px;
-    }
     
-    footer i {
-        color: white;
-    }
     
-    .logofooter {
-        font-size: 18px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        font-family: Shrikhand;
-        color: white;
-    }
+        i {
+            color: white;
+        }
     
-    .fa-utensils {
-        margin-left: 10px;
-        font-size: 13px;
-    }
+        .logofooter {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-family: Shrikhand;
+            color: white;
+        }
     
-    .fa-handshake {
-        margin-left: 10px;
-        margin-top: 10px;
-        font-size: 13px;
-    }
+        .fa-utensils {
+            margin-left: 10px;
+            font-size: 13px;
+        }
     
-    .flex {
-         display: flex;
-         flex-direction: column;
-    }
+        .fa-handshake {
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
     
-    .proposer {
-        font-size: 13px;
-        margin-bottom: 5px;
-        padding-left: 10px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
-    }
+        .flex {
+             display: flex;
+            flex-direction: column;
+        }
     
-    .propose {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: 5px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
+        .proposer {
+            font-size: 13px;
+            margin-bottom: 5px;
+            padding-left: 10px;
+            color: white;
+            text-decoration: unset;
+            font-weight: normal;
+        }
+    
+        .propose {
+            font-size: 13px;
+            margin-left: 10px;
+            margin-top: 5px;
+            color: white;
+            text-decoration: unset;
+            font-weight: normal;
+        }
+
+        .proposes {
+            font-size: 13px;
+             margin-left: 10px;
+            margin-top: 5px;
+            color: white;
+            text-decoration: unset;
+            font-weight: normal;
+        }
+
+        .proposes:hover .adress{
+            opacity: 1;
+        }
+
+        .address {
+            color: white;
+            font-size: 20px;
+            opacity: 0;
+        }
+
     }
 }

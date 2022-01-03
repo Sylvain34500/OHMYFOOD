@@ -141,12 +141,13 @@ header .logo {
   margin-left: 45px;
   margin-bottom: 30px;
   font-weight: bolder;
+  text-align: center;
 }
 
 .fonctionnement .fon {
   font-size: 20px;
   text-align: left;
-  width: calc(100% - 90px);
+  width: calc(35% - 70px);
   font-weight: bold;
   margin-left: 55px;
   margin-bottom: 20px;
@@ -160,6 +161,14 @@ header .logo {
   transition: 1s;
 }
 
+.fonctionnement .fon:hover {
+  background-color: #e0bfe0;
+  color: #9356DC;
+  font-size: 23px;
+  padding: 30px 0px 30px 0px;
+  margin-top: 20px;
+}
+
 .fonctionnement .fa-store {
   color: #9356DC;
 }
@@ -171,15 +180,6 @@ header .logo {
   padding: 5px 10px 5px 10px;
   background-color: #9356DC;
   border-radius: 50%;
-}
-
-.fonctionnement .fon:hover {
-  background-color: #e0bfe0;
-  color: #9356DC;
-  font-size: 23px;
-  padding: 30px 0px 30px 0px;
-  margin-bottom: 30px;
-  margin-top: 20px;
 }
 
 .fonctionnement .fa-mobile-alt {
@@ -197,12 +197,21 @@ header .logo {
 .restaurant {
   background-color: #e4e3e3;
   padding: 5px;
+  margin-top: 20px;
 }
 
 .restaurant h2 {
   margin-bottom: 30px;
   padding-top: 30px;
   padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .restaurant .div1 {
@@ -210,9 +219,9 @@ header .logo {
   border: #f2f2f2;
   border-radius: 10px;
   background: white;
-  width: calc(100% - 150px);
+  width: calc(50% - 100px);
   background: white;
-  margin: 50px 0px 80px 80px;
+  margin: 40px;
   -webkit-box-shadow: lightgrey 5px 5px 20px;
           box-shadow: lightgrey 5px 5px 20px;
   position: relative;
@@ -316,7 +325,7 @@ header .logo {
 footer {
   border: solid black;
   background-color: black;
-  min-height: 150px;
+  text-align: center;
 }
 
 footer i {
@@ -369,6 +378,31 @@ footer .propose {
   color: white;
   text-decoration: unset;
   font-weight: normal;
+}
+
+footer .proposes {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+  text-decoration: unset;
+  font-weight: normal;
+}
+
+footer .address {
+  background: linear-gradient(5deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact:hover .address {
+  opacity: 1;
+  font-size: 18px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 700px) {
@@ -616,7 +650,7 @@ footer .propose {
   footer i {
     color: white;
   }
-  .logofooter {
+  footer .logofooter {
     font-size: 18px;
     margin-top: 20px;
     margin-left: 20px;
@@ -624,16 +658,16 @@ footer .propose {
     font-family: Shrikhand;
     color: white;
   }
-  .fa-utensils {
+  footer .fa-utensils {
     margin-left: 10px;
     font-size: 13px;
   }
-  .fa-handshake {
+  footer .fa-handshake {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 13px;
   }
-  .flex {
+  footer .flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -642,7 +676,7 @@ footer .propose {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .proposer {
+  footer .proposer {
     font-size: 13px;
     margin-bottom: 5px;
     padding-left: 10px;
@@ -650,13 +684,29 @@ footer .propose {
     text-decoration: unset;
     font-weight: normal;
   }
-  .propose {
+  footer .propose {
     font-size: 13px;
     margin-left: 10px;
     margin-top: 5px;
     color: white;
     text-decoration: unset;
     font-weight: normal;
+  }
+  footer .proposes {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: unset;
+    font-weight: normal;
+  }
+  footer .proposes:hover .adress {
+    opacity: 1;
+  }
+  footer .address {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
