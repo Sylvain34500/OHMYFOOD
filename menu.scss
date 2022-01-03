@@ -268,8 +268,6 @@ header {
         transition: 1s;
     }
     
-    
-
     .fa-check-circle {
         font-size: 35px;
         color: white;
@@ -282,38 +280,39 @@ header {
 footer {
     border: solid black;
     background-color: black;
-    width: 100%;
+    width: 99%;
     min-height: 150px;
+
 
     i {
         color: white;
     }
-    
+
     .logofooter {
         font-size: 18px;
         margin-top: 20px;
         margin-left: 20px;
         margin-bottom: 20px;
-        font-family: 'Shrikhand', cursive;
+        font-family: Shrikhand;
         color: white;
     }
-    
+
     .fa-utensils {
         margin-left: 10px;
         font-size: 13px;
     }
-    
+
     .fa-handshake {
         margin-left: 10px;
         margin-top: 10px;
         font-size: 13px;
     }
-    
+
     .flex {
          display: flex;
-         flex-direction: column;
+        flex-direction: column;
     }
-    
+
     .proposer {
         font-size: 13px;
         margin-bottom: 5px;
@@ -322,7 +321,7 @@ footer {
         text-decoration: unset;
         font-weight: normal;
     }
-    
+
     .propose {
         font-size: 13px;
         margin-left: 10px;
@@ -331,7 +330,28 @@ footer {
         text-decoration: unset;
         font-weight: normal;
     }
+
+    .proposes {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: unset;
+        font-weight: normal;
+    }
+
+    .proposes:hover .address{
+        opacity: 1;
+    }
+
+    .address {
+        color: white;
+        font-size: 20px;
+        opacity: 0;
+    }
+
 }
+
 
 @media screen and (max-width: 700px) {
 

@@ -361,7 +361,7 @@ header .logo {
 footer {
   border: solid black;
   background-color: black;
-  width: 100%;
+  width: 99%;
   min-height: 150px;
 }
 
@@ -374,7 +374,7 @@ footer .logofooter {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  font-family: 'Shrikhand', cursive;
+  font-family: Shrikhand;
   color: white;
 }
 
@@ -415,6 +415,25 @@ footer .propose {
   color: white;
   text-decoration: unset;
   font-weight: normal;
+}
+
+footer .proposes {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+  text-decoration: unset;
+  font-weight: normal;
+}
+
+footer .proposes:hover .address {
+  opacity: 1;
+}
+
+footer .address {
+  color: white;
+  font-size: 20px;
+  opacity: 0;
 }
 
 @media screen and (max-width: 700px) {
