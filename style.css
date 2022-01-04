@@ -463,9 +463,6 @@ footer .address {
   }
   .restaurant .fa-heart {
     font-size: 28px;
-    position: absolute;
-    right: 40px;
-    top: 200px;
   }
 }
 
@@ -595,9 +592,6 @@ footer .address {
   }
   .restaurant .fa-heart {
     font-size: 28px;
-    position: absolute;
-    right: 40px;
-    top: 230px;
   }
   footer {
     background-color: black;
