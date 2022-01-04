@@ -237,6 +237,14 @@ header {
         top: 20px; 
     }
     
+    .monmenu {
+        position: relative;
+    }
+
+    a {
+        color: black;
+    }
+
     h3 {
         font-size: 24px;
         color: black;
@@ -550,9 +558,9 @@ footer {
             border: #f2f2f2;
             border-radius: 10px;
             background: white;
-            width: calc(50% - 110px);
+            width: calc(50% - 40px);
             background: white;
-            margin: 40px;
+            margin: 20px;
             box-shadow: lightgrey 5px 5px 20px;
             position: relative; 
         }
