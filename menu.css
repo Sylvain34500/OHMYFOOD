@@ -100,23 +100,23 @@ header .logo {
 }
 
 .PLATS .div1 {
-  -webkit-animation: 3s 0.5s 1 both apparait;
-          animation: 3s 0.5s 1 both apparait;
+  -webkit-animation: 3s 2.5s 1 both apparait;
+          animation: 3s 2.5s 1 both apparait;
 }
 
 .PLATS .anim1 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .PLATS .anim2 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 .PLATS .anim3 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 @keyframes apparait {
@@ -130,23 +130,23 @@ header .logo {
 }
 
 .desserts .div1 {
-  -webkit-animation: 3s 0.5s 1 both apparait;
-          animation: 3s 0.5s 1 both apparait;
+  -webkit-animation: 3s 4.5s 1 both apparait;
+          animation: 3s 4.5s 1 both apparait;
 }
 
 .desserts .anim1 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 .desserts .anim2 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
 }
 
 .desserts .anim3 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 @keyframes apparait {
