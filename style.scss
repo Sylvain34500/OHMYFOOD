@@ -14,12 +14,15 @@ body {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgb(63,94,251) 100%);   
     animation: 1s 5s 1 both disparait; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 
     .loader {
         width: 60px;
         height: 60px;
         position: relative;
-        margin-left: 45%;
         margin-top: 20%;
         background: #ffffff33;
         border: 10px solid white;
@@ -360,35 +363,9 @@ footer {
         text-decoration: unset;
         font-weight: normal;
     }
-    .proposes {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: 5px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
-
-    }
-
-    .address {
-        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 15px;
-        opacity: 0;
-        transition: 1s;
-    }
 
 }
 
-.contact {
-    
-    &:hover  .address {
-    opacity: 1;
-    font-size:16px ;
-    padding: 10px 0px 0px 0px;
-    }
-}
 
 @media screen and (max-width: 700px) {
     

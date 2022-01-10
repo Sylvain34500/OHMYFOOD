@@ -114,15 +114,30 @@ header {
     }
 
 .boite {
-    margin-top: -100px;
+    margin-top: -45px;
     background-color: rgb(228, 227, 227);
     width: 100%;
     border-radius: 50px 50px 0 0;
     padding: 0px 20px 0 20px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
     
 
+    h2::after {
+        content: "";
+        background-color: lightgreen;
+        height: 5px;
+        width: 50px;
+        display: block;
+    }
+
     h1 {   
+        display: flex;
+        flex-wrap: wrap;
         font-size: 28px;
         font-weight: bolder;
         padding-top: 50px;
@@ -145,17 +160,18 @@ header {
     a {
         text-decoration: none;
         display: flex;
+
     }
 
     .div1 {
         border: #f2f2f2;
         border-radius: 20px;
         background: white;
-        width: 100%;
-        margin: 20px 0 20px 0;
+        width: calc(100% - 20px);
+        margin: 20px 20px 20px 20px;
         box-shadow: lightgrey 5px 5px 20px;
-        min-height: 70px;
         transition: 2s;
+        
     }
     
     .flex {
@@ -163,8 +179,7 @@ header {
     }
     
     .prix {
-        width: 60px;
-        text-align: center;
+
         margin-top: 40px;
         margin-right: 10px;
         font-weight: bolder;
@@ -210,7 +225,7 @@ header {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 18px;
         color: black;
         font-weight: bolder;
         margin: 10px 0 0 10px;
@@ -220,7 +235,7 @@ header {
     
     h4 {
         margin: unset;
-        font-size: 17px;
+        font-size: 15px;
         color: black;
         text-decoration: unset;
         font-weight: normal;
@@ -278,41 +293,41 @@ header {
 }
 
 footer {
-    border: solid black;
     background-color: black;
-    width: 99%;
-    min-height: 150px;
-
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 
     i {
         color: white;
     }
-
+    
     .logofooter {
         font-size: 18px;
         margin-top: 20px;
-        margin-left: 20px;
+        display: flex;
+        justify-content: center;
         margin-bottom: 20px;
-        font-family: Shrikhand;
+        font-family: 'Shrikhand', cursive;
         color: white;
     }
-
+    
     .fa-utensils {
         margin-left: 10px;
         font-size: 13px;
     }
-
+    
     .fa-handshake {
         margin-left: 10px;
         margin-top: 10px;
         font-size: 13px;
     }
-
+    
     .flex {
          display: flex;
-        flex-direction: column;
+         flex-direction: column;
     }
-
+    
     .proposer {
         font-size: 13px;
         margin-bottom: 5px;
@@ -321,7 +336,7 @@ footer {
         text-decoration: unset;
         font-weight: normal;
     }
-
+    
     .propose {
         font-size: 13px;
         margin-left: 10px;
@@ -329,25 +344,6 @@ footer {
         color: white;
         text-decoration: unset;
         font-weight: normal;
-    }
-
-    .proposes {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: 5px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
-    }
-
-    .proposes:hover .address{
-        opacity: 1;
-    }
-
-    .address {
-        color: white;
-        font-size: 20px;
-        opacity: 0;
     }
 
 }
