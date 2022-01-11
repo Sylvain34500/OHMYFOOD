@@ -120,9 +120,7 @@ header {
     border-radius: 50px 50px 0 0;
     padding: 0px 20px 0 20px;
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   
   
 
     
@@ -135,9 +133,7 @@ header {
         display: block;
     }
 
-    h1 {   
-        display: flex;
-        flex-wrap: wrap;
+    h1 {  
         font-size: 28px;
         font-weight: bolder;
         padding-top: 50px;
@@ -345,6 +341,7 @@ footer {
         text-decoration: unset;
         font-weight: normal;
     }
+    
 
 }
 
@@ -369,6 +366,7 @@ footer {
             top: 56px; 
         }
     }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
@@ -381,4 +379,34 @@ footer {
     .boite {
         margin-top: -150px;  
     }
+
+    .entrees, .PLATS, .desserts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boite .div1 {
+     width: calc(45% - 20px);
+    }
+
+    .boite h2 {
+        width: 100%;
+       }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .entrees, .PLATS, .desserts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boite .div1 {
+     width: calc(30% - 20px);
+    }
+
+    .boite h2 {
+        width: 100%;
+       }
 }

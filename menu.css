@@ -166,14 +166,6 @@ header .logo {
   border-radius: 50px 50px 0 0;
   padding: 0px 20px 0 20px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .boite h2::after {
@@ -185,11 +177,6 @@ header .logo {
 }
 
 .boite h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   font-size: 28px;
   font-weight: bolder;
   padding-top: 50px;
@@ -471,6 +458,38 @@ footer .propose {
   }
   .boite {
     margin-top: -150px;
+  }
+  .entrees, .PLATS, .desserts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .boite .div1 {
+    width: calc(45% - 20px);
+  }
+  .boite h2 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .entrees, .PLATS, .desserts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .boite .div1 {
+    width: calc(30% - 20px);
+  }
+  .boite h2 {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=menu.css.map */
