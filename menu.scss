@@ -292,7 +292,6 @@ footer {
     background-color: black;
     padding-bottom: 20px;
     display: flex;
-    justify-content: center;
 
     i {
         color: white;
@@ -367,6 +366,8 @@ footer {
         }
     }
 
+   
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
@@ -392,7 +393,14 @@ footer {
 
     .boite h2 {
         width: 100%;
-       }
+    }
+
+    footer {
+        background-color: black;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -408,5 +416,12 @@ footer {
 
     .boite h2 {
         width: 100%;
-       }
+    }
+
+    footer {
+        background-color: black;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
 }

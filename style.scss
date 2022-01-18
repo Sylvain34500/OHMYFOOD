@@ -23,7 +23,7 @@ body {
         width: 60px;
         height: 60px;
         position: relative;
-        margin-top: 20%;
+        margin-top: 295px;
         background: #ffffff33;
         border: 10px solid white;
         border-right: 10px solid red;
@@ -127,24 +127,27 @@ header {
     }
     
     .fon {
+        font-size: 18px;
         width: calc(100% - 20px);
         text-align: left;
         font-weight: bold;
-          margin-left: 10px;
-            margin-bottom: 20px;
-            padding: 25px 0px 25px 0px;
-            border-radius: 20px;
-            border: #f2f2f2;
-            box-shadow: lightgrey 5px 5px 20px;
-            cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        padding: 25px 0px 25px 0px;
+        border-radius: 20px;
+        border: #f2f2f2;
+        box-shadow: lightgrey 5px 5px 20px;
+        cursor: pointer;
+        transition: 0.5s;
     }
 
     .fon:hover {
         background-color: rgb(224, 191, 224) ;
         color: #9356DC; 
-        font-size: 23px;
+        font-size: 22px;
         padding: 30px 0px 30px 0px;
         margin-top: 20px;
+        transition: 1s;
     }
     
     .fa-store {
@@ -314,7 +317,7 @@ footer {
     background-color: black;
     padding-bottom: 20px;
     display: flex;
-    justify-content: center;
+    
 
     i {
         color: white;
@@ -368,7 +371,7 @@ footer {
 
 
 @media screen and (min-width: 1000px) {
-    
+
     .fonctionnement {
         .fon {
         font-size: 20px;
@@ -408,7 +411,15 @@ footer {
         }
 
         
-    }    
+    }  
+
+    footer {
+        background-color: black;
+        width:100%;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
@@ -421,7 +432,6 @@ footer {
         justify-content: center;
     }
 
-    
     .boite {
         background-color: rgb(228, 227, 227);
         width:100%;
@@ -557,6 +567,9 @@ footer {
     footer {
         background-color: black;
         width:100%;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
     
     
         i {
