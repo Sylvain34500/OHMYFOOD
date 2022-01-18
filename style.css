@@ -84,7 +84,7 @@ header .logo {
 .boite .location {
   font-weight: lighter;
   font-size: 20px;
-  width: calc(100%-20px);
+  width: calc(100% - 20px);
   background-color: lightgrey;
   display: -webkit-box;
   display: -ms-flexbox;
