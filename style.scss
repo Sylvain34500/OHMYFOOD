@@ -1,641 +1,628 @@
 * {
-    font-family: 'Roboto', sans-serif;
-  }
-  
+  font-family: "Roboto", sans-serif;
+}
+
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .monloader {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 99;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(145,70,252,0.5) 0%, rgb(63,94,251) 100%);   
-    animation: 1s 5s 1 both disparait; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(145, 70, 252, 0.5) 0%, rgb(63, 94, 251) 100%);
+  animation: 1s 5s 1 both disparait;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-    .loader {
-        width: 60px; 
-        height: 60px;
-        position: relative;
-        margin-top: 295px;
-        background: #ffffff33;
-        border: 10px solid white;
-        border-right: 10px solid red;
-        border-left: 10px solid blue;
-        border-radius: 50%;
-        animation: 1s 0s infinite both disparait;
-    }
+  .loader {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 295px;
+    background: #ffffff33;
+    border: 10px solid white;
+    border-right: 10px solid red;
+    border-left: 10px solid blue;
+    border-radius: 50%;
+    animation: 1s 0s infinite both disparait;
+  }
 
-    @keyframes disparait {
-        to { opacity:0; z-index: -10; }
-        from{ opacity:1; z-index: 2 }
+  @keyframes disparait {
+    to {
+      opacity: 0;
+      z-index: -10;
     }
+    from {
+      opacity: 1;
+      z-index: 2;
+    }
+  }
 }
 
 header {
-    display: flex;
-    justify-content:center;
+  display: flex;
+  justify-content: center;
 
-    .logo {
-        height: 35px;
-        padding: 15px;
-    }
+  .logo {
+    height: 35px;
+    padding: 15px;
+  }
 }
 
 .boite {
-    background-color: rgb(228, 227, 227);
-    width: 100%;
-    padding-bottom: 80px;
-   
+  background-color: rgb(228, 227, 227);
+  width: 100%;
+  padding-bottom: 80px;
 
-    .location {
-        font-weight: lighter;
-        font-size: 20px;
-        width: calc(100% - 20px) ;
-        background-color: lightgrey;
-        display: flex;
-        justify-content: center;
-        padding: 10px 0px 10px 45px; 
-    }
+  .location {
+    font-weight: lighter;
+    font-size: 20px;
+    width: calc(100% - 20px);
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 20px;
+  }
 
-    :placeholder-shown {
-        font-size: 22px;
-        background-color: lightgrey;
-        border: none;
-        margin-left: 10px;
-        color: black; 
-    }
+  :placeholder-shown {
+    font-size: 22px;
+    background-color: lightgrey;
+    border: none;
+    margin-left: 10px;
+    color: black;
+  }
 
-    h1 {
-        text-align: center;    
-        font-size: 29px;
-        font-weight: bolder;
-        margin-top: 40px; 
-    }
-    
-    .soins {
-        text-align: center;
-        font-size: 23px;
-        margin-left: 8px; 
-    }
+  h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
 
-    .centre {
-        text-align: center;
-    }
-    
-    .explorer {
-        font-size: 25px;
-        font-weight:normal;
-        color: white;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        padding: 15px 35px 15px 35px;
-        border-radius: 40px;
-        border: unset;
-        transition: 1s;
-        box-shadow: silver 5px 5px 20px;
-        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%); 
-    }
+  .soins {
+    text-align: center;
+    font-size: 23px;
+    margin-left: 8px;
+  }
 
-    .explorer:hover {
-        cursor: pointer;
-        padding: 25px 70px 25px 70px;
-        font-size: 27px;
-        box-shadow: grey 5px 5px 20px;
-        background: linear-gradient(5deg, #fbb1e7 0%, #b089df 100%);
-    }
+  .centre {
+    text-align: center;
+  }
+
+  .explorer {
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 40px;
+    border: unset;
+    transition: 1s;
+    box-shadow: silver 5px 5px 20px;
+    background: linear-gradient(5deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+  }
+
+  .explorer:hover {
+    cursor: pointer;
+    padding: 25px 70px 25px 70px;
+    font-size: 27px;
+    box-shadow: grey 5px 5px 20px;
+    background: linear-gradient(5deg, #fbb1e7 0%, #b089df 100%);
+  }
 }
 
 .fonctionnement {
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
 
-    h2 {
-        width: 100%;
-        font-size: 25px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-weight: bolder;
-        text-align: center;
-    }
-    
-    .fon {
-        font-size: 18px;
-        width: calc(100% - 20px);
-        text-align: left;
-        font-weight: bold;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        padding: 25px 0px 25px 0px;
-        border-radius: 20px;
-        border: #f2f2f2;
-        box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer;
-        transition: 0.5s;
-    }
+  h2 {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
 
-    .fon:hover {
-        background-color: rgb(224, 191, 224) ;
-        color: #9356DC; 
-        font-size: 22px;
-        padding: 30px 0px 30px 0px;
-        margin-top: 20px;
-        transition: 1s;
-    }
-    
-    .fa-store {
-        color: #9356DC; 
-    }
-    
-    .un {
-        color: white;
-        font-size: 18px;
-        margin-left: -10px;
-        padding: 5px 10px 5px 10px;
-        background-color: #9356DC;
-        border-radius: 50%; 
-    }
-    
-    .fa-mobile-alt {
-        padding: 0 25px 0px 25px; 
-    }
-    
-    .fa-list-ul {
-        padding: 0 20px 0px 20px; 
-    }
-    
-    .fa-store {
-        padding: 0 20px 0px 20px; 
-    }
-    
+  .fon {
+    font-size: 18px;
+    width: calc(100% - 20px);
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 25px 0px 25px 0px;
+    border-radius: 20px;
+    border: #f2f2f2;
+    box-shadow: lightgrey 5px 5px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .fon:hover {
+    background-color: rgb(224, 191, 224);
+    color: #9356dc;
+    font-size: 22px;
+    padding: 30px 0px 30px 0px;
+    margin-top: 20px;
+    transition: 1s;
+  }
+
+  .fa-store {
+    color: #9356dc;
+  }
+
+  .un {
+    color: white;
+    font-size: 18px;
+    margin-left: -10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #9356dc;
+    border-radius: 50%;
+  }
+
+  .fa-mobile-alt {
+    padding: 0 25px 0px 25px;
+  }
+
+  .fa-list-ul {
+    padding: 0 20px 0px 20px;
+  }
+
+  .fa-store {
+    padding: 0 20px 0px 20px;
+  }
 }
 
 .restaurant {
+  font-size: 18px;
+  background-color: rgb(228, 227, 227);
+  padding: 5px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .div1 {
+    border: #f2f2f2;
+    border-radius: 10px;
+    background: white;
+    width: calc(100% - 30px);
+    background: white;
+    margin: 15px;
+    margin-bottom: 55px;
+    box-shadow: lightgrey 5px 5px 20px;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .div1 img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+
+  .nouveau {
+    width: 70px;
     font-size: 18px;
-    background-color: rgb(228, 227, 227);
-    padding: 5px;
-    margin-top: 20px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-   
+    padding: 5px 15px 5px 15px;
+    border: green;
+    background-color: lightseagreen;
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
 
-    h2 {
-        margin-bottom: 10px;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .div1 {
-       border: #f2f2f2;
-        border-radius: 10px;
-        background: white;
-        width: calc(100% - 30px);
-        background: white;
-        margin: 15px;
-        margin-bottom: 55px;
-        box-shadow: lightgrey 5px 5px 20px;
-        position: relative;
-    }
-    
-    a {
-        text-decoration: none; 
-    }
-    
-    .div1 img {
-        width: 100%;
-        height: 180px;
-        border-radius: 10px 10px 0 0;
-        object-fit: cover;
-    }
-    
-    .nouveau {
-        width: 70px;
-        font-size: 18px;
-        padding: 5px 15px 5px 15px;
-        border: green;
-        background-color: lightseagreen;
-        color: black;
-        position: absolute;
-        right: 20px;
-        top: 20px; 
-    }
-    
-    .Nouveau {
-        width: 70px;
-        font-size: 18px;
-        padding: 5px 15px 5px 15px;
-        border: green;
-        background-color: lightseagreen;
-        color: black;
-        position: absolute;
-        right: 20px;
-        top: 20px; 
-    }
-    
-    .monmenu {
-        position: relative;
-    }
+  .Nouveau {
+    width: 70px;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    border: green;
+    background-color: lightseagreen;
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
 
-    a {
-        color: black;
-    }
+  .monmenu {
+    position: relative;
+  }
 
-    h3 {
-        font-size: 24px;
-        color: black;
-        font-weight: bold;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: unset;
-        text-decoration:unset; 
-        position: relative;
-    }
-    
-    h4 {
-        margin: unset;
-        margin-left: 10px;
-        font-size: 22px;
-        color: black;
-        margin-left: 10px;
-        text-decoration: unset;
-        font-weight:normal; 
-    }
+  a {
+    color: black;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: unset;
+    text-decoration: unset;
+    position: relative;
+  }
+
+  h4 {
+    margin: unset;
+    margin-left: 10px;
+    font-size: 22px;
+    color: black;
+    margin-left: 10px;
+    text-decoration: unset;
+    font-weight: normal;
+  }
 }
 
 .moncoeur {
-    
-    .far {
-        font-size: 28px;
-        position: absolute;
-        right: 10px;
-        top: 0px; 
-        opacity: 1;
-        transition: 1s;
-    }
+  .far {
+    font-size: 28px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    opacity: 1;
+    transition: 1s;
+  }
 
-    &:hover .far {
-        opacity: 0;
-    }
+  &:hover .far {
+    opacity: 0;
+  }
 
-    .fas {
-        font-size: 28px;
-        position: absolute;
-        right: 10px;
-        top: 0px; 
-        opacity: 0;
-        transition: 1s;
-        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%); 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+  .fas {
+    font-size: 28px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    opacity: 0;
+    transition: 1s;
+    background: linear-gradient(5deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-    .fa-heart {
-        font-size: 28px;
-    }
-    
-    &:hover .fas {
-        opacity: 1;
-    } 
+  .fa-heart {
+    font-size: 28px;
+  }
 
-    .solides {
-        background: linear-gradient(5deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        opacity: 1;
-    }
+  &:hover .fas {
+    opacity: 1;
+  }
+
+  .solides {
+    background: linear-gradient(5deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+  }
 }
 
 footer {
-    background-color: black;
-    padding-bottom: 20px;
+  background-color: black;
+  padding-bottom: 20px;
+  display: flex;
+
+  i {
+    color: white;
+  }
+
+  .logofooter {
+    font-size: 18px;
+    margin-top: 20px;
     display: flex;
-    
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Shrikhand", cursive;
+    color: white;
+  }
 
-    i {
-        color: white;
-    }
-    
-    .logofooter {
-        font-size: 18px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-        font-family: 'Shrikhand', cursive;
-        color: white;
-    }
-    
-    .fa-utensils {
-        margin-left: 10px;
-        font-size: 13px;
-    }
-    
-    .fa-handshake {
-        margin-left: 10px;
-        margin-top: 10px;
-        font-size: 13px;
-    }
-    
-    .flex {
-         display: flex;
-         flex-direction: column;
-    }
-    
-    .proposer {
-        font-size: 13px;
-        margin-bottom: 5px;
-        padding-left: 10px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
-    }
-    
-    .propose {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-top: 5px;
-        color: white;
-        text-decoration: unset;
-        font-weight: normal;
-    }
+  .fa-utensils {
+    margin-left: 10px;
+    font-size: 13px;
+  }
 
+  .fa-handshake {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proposer {
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: unset;
+    font-weight: normal;
+  }
+
+  .propose {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: unset;
+    font-weight: normal;
+  }
 }
 
-
 @media screen and (min-width: 1000px) {
-
-    .fonctionnement {
-        .fon {
-        font-size: 20px;
-        text-align: left;
-        width: calc(33% - 30px);
-        font-weight: bold;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        padding: 25px 0px 25px 0px;
-        border-radius: 20px;
-        border: #f2f2f2;
-        box-shadow: lightgrey 5px 5px 20px;
-        cursor: pointer; 
-        transition: 1s;
-        }
+  .fonctionnement {
+    .fon {
+      font-size: 20px;
+      text-align: left;
+      width: calc(33% - 30px);
+      font-weight: bold;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      padding: 25px 0px 25px 0px;
+      border-radius: 20px;
+      border: #f2f2f2;
+      box-shadow: lightgrey 5px 5px 20px;
+      cursor: pointer;
+      transition: 1s;
     }
-    
-    .restaurant {
-        .div1 {
-            padding-bottom: 10px;
-            border: #f2f2f2;
-            border-radius: 10px;
-            background: white;
-            width: calc(50% - 80px);
-            background: white;
-            margin: 40px;
-            box-shadow: lightgrey 5px 5px 20px;
-            position: relative; 
-        }
-    
-        .div1 img {
-            width: 100%;
-            height: 180px;
-            border-radius: 10px 10px 0 0;
-            object-fit: cover; 
-        }
+  }
 
-        
-    }  
-
-    footer {
-        background-color: black;
-        width:100%;
-        padding-bottom: 20px;
-        display: flex;
-        justify-content: center;
+  .restaurant {
+    .div1 {
+      padding-bottom: 10px;
+      border: #f2f2f2;
+      border-radius: 10px;
+      background: white;
+      width: calc(50% - 80px);
+      background: white;
+      margin: 40px;
+      box-shadow: lightgrey 5px 5px 20px;
+      position: relative;
     }
+
+    .div1 img {
+      width: 100%;
+      height: 180px;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+    }
+  }
+
+  footer {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
-    .logo {
-        height: 35px;
+  .logo {
+    height: 35px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boite {
+    background-color: rgb(228, 227, 227);
+    width: 100%;
+    padding-bottom: 80px;
+
+    .location {
+      font-weight: lighter;
+      font-size: 18px;
+      width: calc(100% - 45px);
+      background-color: lightgrey;
+      padding-left: 45px;
     }
 
-    header {
-        display: flex;
-        justify-content: center;
+    h1 {
+      text-align: center;
+      font-size: 29px;
+      font-weight: bolder;
+      margin-top: 40px;
     }
 
-    .boite {
-        background-color: rgb(228, 227, 227);
-        width:100%;
-        padding-bottom: 80px;
-    
-        .location {
-            font-weight: lighter;
-            font-size: 18px;
-            width: calc(100% - 45px);
-            background-color: lightgrey;
-            padding-left: 45px;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 29px;
-            font-weight: bolder;
-            margin-top: 40px;
-        }
-        
-        .soins {
-            text-align: center;
-            font-size: 23px;
-            margin-left: 8px;
-        }
+    .soins {
+      text-align: center;
+      font-size: 23px;
+      margin-left: 8px;
     }
-    
-    .fonctionnement {
-        
-        h2 {
-            width: 100%;
-            font-size: 25px;
-            margin-bottom: 30px;
-            font-weight: bolder;
-            
-        }
-    
-        .fon {
-            font-size: 20px;
-            text-align: left;
-            width: calc(50% - 20px);
-            font-weight: bold;
-            margin-left: 20px;
-            margin-bottom: 20px;
-            padding: 25px 0px 25px 0px;
-            border-radius: 20px;
-            border: #f2f2f2;
-            box-shadow: lightgrey 5px 5px 20px;
-            cursor: pointer; 
-            transition: 1s;
-        }
+  }
 
-        .fonc {
-            font-size: 20px;
-            text-align: left;
-            width: calc(50% - 20px);
-            font-weight: bold;
-            margin-top: 20px;
-            margin-bottom: 40px;
-            padding: 25px 0px 25px 0px;
-            border-radius: 20px;
-            border: #f2f2f2;
-            box-shadow: lightgrey 5px 5px 20px;
-            cursor: pointer; 
-            transition: 1s;
-            position: relative;
-            top: 0px;
-            left: 28%;
-
-        }
-
-        .fa-store {
-            color: #9356DC;
-        }
-    
-        .un {
-            color: white;
-            font-size: 18px;
-            margin-left: -10px;
-            padding: 5px 10px 5px 10px;
-            background-color: #9356DC;
-            border-radius: 50%;
-        }
-    
-        .fa-mobile-alt {
-            padding: 0 25px 0px 20px;
-        }   
-    
-        .fa-list-ul {
-            padding: 0 20px 0px 15px;
-        }
-    
-        .fa-store {
-            padding: 0 20px 0px 20px;
-        }
-    
+  .fonctionnement {
+    h2 {
+      width: 100%;
+      font-size: 25px;
+      margin-bottom: 30px;
+      font-weight: bolder;
     }
-    
-    .restaurant {
-        background-color: rgb(228, 227, 227);
-        width: calc(100% - 10px);
 
-        h2 {
-            margin-bottom: 30px;
-            margin-top: 0px;
-            margin-left: 20px;
-        }
-       
-        .div1 {
-            padding-bottom: 10px;
-            border: #f2f2f2;
-            border-radius: 10px;
-            background: white;
-            width: calc(50% - 40px);
-            background: white;
-            margin: 20px;
-            box-shadow: lightgrey 5px 5px 20px;
-            position: relative; 
-        }
-
-        .div1 img {
-            width: 100%;
-            border-radius: 10px 10px 0 0;
-            object-fit: cover;
-        }
-
-        .fa-heart {
-            font-size: 28px;
-        }
-        
+    .fon {
+      font-size: 20px;
+      text-align: left;
+      width: calc(50% - 20px);
+      font-weight: bold;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      padding: 25px 0px 25px 0px;
+      border-radius: 20px;
+      border: #f2f2f2;
+      box-shadow: lightgrey 5px 5px 20px;
+      cursor: pointer;
+      transition: 1s;
     }
- 
-    footer {
-        background-color: black;
-        width:100%;
-        padding-bottom: 20px;
-        display: flex;
-        justify-content: center;
-    
-    
-        i {
-            color: white;
-        }
-    
-        .logofooter {
-            font-size: 18px;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-bottom: 20px;
-            font-family: Shrikhand;
-            color: white;
-        }
-    
-        .fa-utensils {
-            margin-left: 10px;
-            font-size: 13px;
-        }
-    
-        .fa-handshake {
-            margin-left: 10px;
-            margin-top: 10px;
-            font-size: 13px;
-        }
-    
-        .flex {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .proposer {
-            font-size: 13px;
-            margin-bottom: 5px;
-            padding-left: 10px;
-            color: white;
-            text-decoration: unset;
-            font-weight: normal;
-        }
-    
-        .propose {
-            font-size: 13px;
-            margin-left: 10px;
-            margin-top: 5px;
-            color: white;
-            text-decoration: unset;
-            font-weight: normal;
-        }
 
-        .proposes {
-            font-size: 13px;
-            margin-left: 10px;
-            margin-top: 5px;
-            color: white;
-            text-decoration: unset;
-            font-weight: normal;
-        }
-
-        .proposes:hover .address{
-            opacity: 1;
-        }
-
-        .address {
-            color: white;
-            font-size: 20px;
-            opacity: 0;
-        }
-
+    .fonc {
+      font-size: 20px;
+      text-align: left;
+      width: calc(50% - 20px);
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 25px 0px 25px 0px;
+      border-radius: 20px;
+      border: #f2f2f2;
+      box-shadow: lightgrey 5px 5px 20px;
+      cursor: pointer;
+      transition: 1s;
+      position: relative;
+      top: 0px;
+      left: 28%;
     }
+
+    .fa-store {
+      color: #9356dc;
+    }
+
+    .un {
+      color: white;
+      font-size: 18px;
+      margin-left: -10px;
+      padding: 5px 10px 5px 10px;
+      background-color: #9356dc;
+      border-radius: 50%;
+    }
+
+    .fa-mobile-alt {
+      padding: 0 25px 0px 20px;
+    }
+
+    .fa-list-ul {
+      padding: 0 20px 0px 15px;
+    }
+
+    .fa-store {
+      padding: 0 20px 0px 20px;
+    }
+  }
+
+  .restaurant {
+    background-color: rgb(228, 227, 227);
+    width: calc(100% - 10px);
+
+    h2 {
+      margin-bottom: 30px;
+      margin-top: 0px;
+      margin-left: 20px;
+    }
+
+    .div1 {
+      padding-bottom: 10px;
+      border: #f2f2f2;
+      border-radius: 10px;
+      background: white;
+      width: calc(50% - 40px);
+      background: white;
+      margin: 20px;
+      box-shadow: lightgrey 5px 5px 20px;
+      position: relative;
+    }
+
+    .div1 img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+    }
+
+    .fa-heart {
+      font-size: 28px;
+    }
+  }
+
+  footer {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    i {
+      color: white;
+    }
+
+    .logofooter {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-family: Shrikhand;
+      color: white;
+    }
+
+    .fa-utensils {
+      margin-left: 10px;
+      font-size: 13px;
+    }
+
+    .fa-handshake {
+      margin-left: 10px;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    .flex {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .proposer {
+      font-size: 13px;
+      margin-bottom: 5px;
+      padding-left: 10px;
+      color: white;
+      text-decoration: unset;
+      font-weight: normal;
+    }
+
+    .propose {
+      font-size: 13px;
+      margin-left: 10px;
+      margin-top: 5px;
+      color: white;
+      text-decoration: unset;
+      font-weight: normal;
+    }
+
+    .proposes {
+      font-size: 13px;
+      margin-left: 10px;
+      margin-top: 5px;
+      color: white;
+      text-decoration: unset;
+      font-weight: normal;
+    }
+
+    .proposes:hover .address {
+      opacity: 1;
+    }
+
+    .address {
+      color: white;
+      font-size: 20px;
+      opacity: 0;
+    }
+  }
 }

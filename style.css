@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -92,7 +92,7 @@ header .logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px 0px 10px 45px;
+  padding: 10px 0px 10px 20px;
 }
 
 .boite :placeholder-shown {
@@ -181,7 +181,7 @@ header .logo {
 
 .fonctionnement .fon:hover {
   background-color: #e0bfe0;
-  color: #9356DC;
+  color: #9356dc;
   font-size: 22px;
   padding: 30px 0px 30px 0px;
   margin-top: 20px;
@@ -190,7 +190,7 @@ header .logo {
 }
 
 .fonctionnement .fa-store {
-  color: #9356DC;
+  color: #9356dc;
 }
 
 .fonctionnement .un {
@@ -198,7 +198,7 @@ header .logo {
   font-size: 18px;
   margin-left: -10px;
   padding: 5px 10px 5px 10px;
-  background-color: #9356DC;
+  background-color: #9356dc;
   border-radius: 50%;
 }
 
@@ -375,7 +375,7 @@ footer .logofooter {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   color: white;
 }
 
@@ -544,14 +544,14 @@ footer .propose {
     left: 28%;
   }
   .fonctionnement .fa-store {
-    color: #9356DC;
+    color: #9356dc;
   }
   .fonctionnement .un {
     color: white;
     font-size: 18px;
     margin-left: -10px;
     padding: 5px 10px 5px 10px;
-    background-color: #9356DC;
+    background-color: #9356dc;
     border-radius: 50%;
   }
   .fonctionnement .fa-mobile-alt {
