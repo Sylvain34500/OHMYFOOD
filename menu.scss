@@ -237,6 +237,9 @@ header {
     margin: 10px 0 0 10px;
     text-decoration: unset;
     transition: 2s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   h4 {
@@ -246,6 +249,9 @@ header {
     text-decoration: unset;
     font-weight: normal;
     margin: 5px 0 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .centre {

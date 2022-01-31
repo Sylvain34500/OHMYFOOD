@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -181,7 +181,7 @@ header .logo {
   font-weight: bolder;
   padding-top: 50px;
   padding-left: 10px;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
 }
 
 .boite .fa-heart {
@@ -295,6 +295,9 @@ header .logo {
   text-decoration: unset;
   -webkit-transition: 2s;
   transition: 2s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .boite h4 {
@@ -304,6 +307,9 @@ header .logo {
   text-decoration: unset;
   font-weight: normal;
   margin: 5px 0 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .boite .centre {
@@ -385,7 +391,7 @@ footer .logofooter {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   color: white;
 }
 
@@ -456,7 +462,9 @@ footer .propose {
   .boite {
     margin-top: -150px;
   }
-  .entrees, .PLATS, .desserts {
+  .entrees,
+  .PLATS,
+  .desserts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -485,7 +493,9 @@ footer .propose {
 }
 
 @media screen and (min-width: 1000px) {
-  .entrees, .PLATS, .desserts {
+  .entrees,
+  .PLATS,
+  .desserts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

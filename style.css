@@ -31,12 +31,12 @@ body {
   position: relative;
   margin-top: 295px;
   background: #ffffff33;
-  border: 10px solid white;
-  border-right: 10px solid red;
-  border-left: 10px solid blue;
   border-radius: 50%;
   -webkit-animation: 1s 0s infinite both disparait;
           animation: 1s 0s infinite both disparait;
+  border: 16px solid white;
+  border-right: 16px solid #da6ddb;
+  border-left: 16px solid #9757dc;
 }
 
 @-webkit-keyframes disparait {
@@ -244,6 +244,7 @@ header .logo {
   -webkit-box-shadow: lightgrey 5px 5px 20px;
           box-shadow: lightgrey 5px 5px 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .restaurant a {
